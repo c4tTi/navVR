@@ -1,0 +1,1438 @@
+﻿Log file open, 11/08/16 15:30:27
+LogInit:Display: Running engine for game: MyVRTestController
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1371768877) SRandInit(-1371768877).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.080431
+LogPluginManager: Loaded Plugin Paper2D, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
+LogPluginManager: Loaded Plugin LightPropagationVolume, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
+LogPluginManager: Loaded Plugin BlankPlugin, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
+LogPluginManager: Loaded Plugin CodeLiteSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/CodeLiteSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin GitSourceControl, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/GitSourceControl/GitSourceControl.uplugin
+LogPluginManager: Loaded Plugin KDevelopSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/KDevelopSourceCodeAccess/KDevelopSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin NullSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/NullSourceCodeAccess/NullSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin OneSkyLocalizationService, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/OneSkyLocalizationService/OneSkyLocalizationService.uplugin
+LogPluginManager: Loaded Plugin PerforceSourceControl, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/PerforceSourceControl/PerforceSourceControl.uplugin
+LogPluginManager: Loaded Plugin SubversionSourceControl, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/SubversionSourceControl/SubversionSourceControl.uplugin
+LogPluginManager: Loaded Plugin UObjectPlugin, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/UObjectPlugin/UObjectPlugin.uplugin
+LogPluginManager: Loaded Plugin VisualStudioSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/VisualStudioSourceCodeAccess/VisualStudioSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin XCodeSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/XCodeSourceCodeAccess/XCodeSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin EpicSurvey, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/EpicSurvey/EpicSurvey.uplugin
+LogPluginManager: Loaded Plugin MacGraphicsSwitching, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/MacGraphicsSwitching/MacGraphicsSwitching.uplugin
+LogPluginManager: Loaded Plugin MobileLauncherProfileWizard, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/MobileLauncherProfileWizard/MobileLauncherProfileWizard.uplugin
+LogPluginManager: Loaded Plugin PluginBrowser, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/PluginBrowser/PluginBrowser.uplugin
+LogPluginManager: Loaded Plugin SpeedTreeImporter, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/SpeedTreeImporter/SpeedTreeImporter.uplugin
+LogPluginManager: Loaded Plugin SuperSearchEditor, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/SuperSearchEditor/SuperSearchEditor.uplugin
+LogPluginManager: Loaded Plugin AlembicImporter, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/AlembicImporter/AlembicImporter.uplugin
+LogPluginManager: Loaded Plugin BlueprintStats, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/BlueprintStats/BlueprintStats.uplugin
+LogPluginManager: Loaded Plugin CharacterAI, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin
+LogPluginManager: Loaded Plugin CodeEditor, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/CodeEditor/CodeEditor.uplugin
+LogPluginManager: Loaded Plugin CodeView, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/CodeView/CodeView.uplugin
+LogPluginManager: Loaded Plugin HTML5Networking, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/HTML5Networking/HTML5Networking.uplugin
+LogPluginManager: Loaded Plugin LiveEditor, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/LiveEditor/LiveEditor.uplugin
+LogPluginManager: Loaded Plugin OSVR, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/OSVR/OSVR.uplugin
+LogPluginManager: Loaded Plugin Phya, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/Phya/Phya.uplugin
+LogPluginManager: Loaded Plugin SignificanceManager, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/SignificanceManager/SignificanceManager.uplugin
+LogPluginManager: Loaded Plugin SimpleHMD, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/SimpleHMD/SimpleHMD.uplugin
+LogPluginManager: Loaded Plugin StereoPanorama, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/StereoPanorama/StereoPanorama.uplugin
+LogPluginManager: Loaded Plugin StructBox, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/StructBox/StructBox.uplugin
+LogPluginManager: Loaded Plugin AndroidMedia, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
+LogPluginManager: Loaded Plugin AvfMedia, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
+LogPluginManager: Loaded Plugin MediaPlayerEditor, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin
+LogPluginManager: Loaded Plugin WmfMedia, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin
+LogPluginManager: Loaded Plugin MessagingDebugger, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Messaging/MessagingDebugger/MessagingDebugger.uplugin
+LogPluginManager: Loaded Plugin TcpMessaging, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin
+LogPluginManager: Loaded Plugin UdpMessaging, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin
+LogPluginManager: Loaded Plugin LevelSequenceEditor, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin
+LogPluginManager: Loaded Plugin MatineeToLevelSequence, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/MovieScene/MatineeToLevelSequence/MatineeToLevelSequence.uplugin
+LogPluginManager: Loaded Plugin NetcodeUnitTest, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/NetcodeUnitTest.uplugin
+LogPluginManager: Loaded Plugin NUTUnrealEngine4, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/NUTUnrealEngine4.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGooglePlay, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/OnlineSubsystemGooglePlay.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemIOS, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/IOS/OnlineSubsystemIOS/OnlineSubsystemIOS.uplugin
+LogPluginManager: Loaded Plugin OnlineFramework, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineFramework/OnlineFramework.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystem, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemAmazon, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemAmazon/OnlineSubsystemAmazon.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemFacebook, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemFacebook/OnlineSubsystemFacebook.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemNull, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemOculus, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemOculus/OnlineSubsystemOculus.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemSteam, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemSteam/OnlineSubsystemSteam.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemUtils, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin
+LogPluginManager: Loaded Plugin IOSTapJoy, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Advertising/IOSTapJoy/IOSTapJoy.uplugin
+LogPluginManager: Loaded Plugin AnalyticsBlueprintLibrary, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/AnalyticsBlueprintLibrary.uplugin
+LogPluginManager: Loaded Plugin AnalyticsMulticast, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/AnalyticsMulticast/AnalyticsMulticast.uplugin
+LogPluginManager: Loaded Plugin Apsalar, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/Apsalar/Apsalar.uplugin
+LogPluginManager: Loaded Plugin FileLogging, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/FileLogging/FileLogging.uplugin
+LogPluginManager: Loaded Plugin Flurry, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/Flurry/Flurry.uplugin
+LogPluginManager: Loaded Plugin AndroidDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/AndroidDeviceProfileSelector/AndroidDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin AndroidMoviePlayer, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/AndroidMoviePlayer/AndroidMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin AppleMoviePlayer, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/AppleMoviePlayer/AppleMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ArchVisCharacter, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin
+LogPluginManager: Loaded Plugin CableComponent, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin
+LogPluginManager: Loaded Plugin CustomMeshComponent, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin
+LogPluginManager: Loaded Plugin ExampleDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin GearVR, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/GearVR/GearVR.uplugin
+LogPluginManager: Loaded Plugin GoogleVRController, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/GoogleVR/GoogleVRController/GoogleVRController.uplugin
+LogPluginManager: Loaded Plugin GoogleVRHMD, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/GoogleVR/GoogleVRHMD/GoogleVRHMD.uplugin
+LogPluginManager: Loaded Plugin IOSDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/IOSDeviceProfileSelector/IOSDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LeapMotion, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/LeapMotion/LeapMotion.uplugin
+LogPluginManager: Loaded Plugin LinuxDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/LinuxDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LiveEditorListenServer, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/LiveEditorListenServer/LiveEditorListenServer.uplugin
+LogPluginManager: Loaded Plugin OculusAudio, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/OculusAudio/OculusAudio.uplugin
+LogPluginManager: Loaded Plugin OculusInput, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/OculusInput/OculusInput.uplugin
+LogPluginManager: Loaded Plugin OculusLibrary, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/OculusLibrary/OculusLibrary.uplugin
+LogPluginManager: Loaded Plugin OculusRift, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin
+LogPluginManager: Loaded Plugin Oodle, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/PacketHandlers/CompressionComponents/Oodle/Oodle.uplugin
+LogPluginManager: Loaded Plugin ProceduralMeshComponent, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin
+LogPluginManager: Loaded Plugin SoundMod, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/SoundMod/SoundMod.uplugin
+LogPluginManager: Loaded Plugin SoundVisualizations, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/SoundVisualizations/SoundVisualizations.uplugin
+LogPluginManager: Loaded Plugin SteamController, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Steam/SteamController/SteamController.uplugin
+LogPluginManager: Loaded Plugin SteamVR, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin
+LogPluginManager: Loaded Plugin WebBrowserWidget, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/WebBrowserWidget/WebBrowserWidget.uplugin
+LogPluginManager: Loaded Plugin WindowsDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/WindowsDeviceProfileSelector/WindowsDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin WindowsMoviePlayer, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ScriptPlugin, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/ScriptPlugin/ScriptPlugin.uplugin
+LogPluginManager: Loaded Plugin SlateRemote, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.13-CL-3172292
+LogInit: Engine Version: 4.13.2-3172292+++UE4+Release-4.13
+LogInit: Compatible Engine Version: 4.13.0-3106830+++UE4+Release-4.13
+LogInit: Net CL: 3172292
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 5
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 6
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 12
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 4
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Oct 24 2016 14:29:06
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.13
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.13/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.11.08-14.30.27:352][  0]LogInit: Selected Device Profile: [Windows]
+[2016.11.08-14.30.27:352][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.11.08-14.30.27:368][  0]LogInit: Computer: DESKTOP-21DL288
+[2016.11.08-14.30.27:368][  0]LogInit: User: catti
+[2016.11.08-14.30.27:368][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.11.08-14.30.27:368][  0]LogInit: High frequency timer resolution =2.143568 MHz
+[2016.11.08-14.30.27:368][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2016.11.08-14.30.27:368][  0]LogMemory: Platform Memory Stats for Windows
+[2016.11.08-14.30.27:368][  0]LogMemory: Process Physical Memory: 255.99 MB used, 255.99 MB peak
+[2016.11.08-14.30.27:368][  0]LogMemory: Process Virtual Memory: 260.07 MB used, 260.07 MB peak
+[2016.11.08-14.30.27:368][  0]LogMemory: Physical Memory: 4574.69 MB used, 8077.53 MB total
+[2016.11.08-14.30.27:368][  0]LogMemory: Virtual Memory: 623.24 MB used, 134217728.00 MB total
+[2016.11.08-14.30.27:400][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.11.08-14.30.28:118][  0]LogD3D11RHI: D3D11 adapters:
+[2016.11.08-14.30.28:153][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GT 650M' (Feature Level 11_0)
+[2016.11.08-14.30.28:153][  0]LogD3D11RHI:       2017/0/4038 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2016.11.08-14.30.28:157][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4000' (Feature Level 11_0)
+[2016.11.08-14.30.28:157][  0]LogD3D11RHI:       32/0/1760 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2016.11.08-14.30.28:159][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.11.08-14.30.28:159][  0]LogD3D11RHI:       0/0/4038 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2016.11.08-14.30.28:159][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.11.08-14.30.28:164][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.11.08-14.30.28:164][  0]LogD3D11RHI:     GPU DeviceId: 0xfd1 (for the marketing name, search the web for "GPU Device Id")
+[2016.11.08-14.30.28:164][  0]LogWindows: EnumDisplayDevices:
+[2016.11.08-14.30.28:164][  0]LogWindows:    0. 'Intel(R) HD Graphics 4000' (P:1 D:1)
+[2016.11.08-14.30.28:164][  0]LogWindows:    1. 'Intel(R) HD Graphics 4000' (P:0 D:0)
+[2016.11.08-14.30.28:164][  0]LogWindows:    2. 'Intel(R) HD Graphics 4000' (P:0 D:0)
+[2016.11.08-14.30.28:164][  0]LogWindows:    3. 'NVIDIA GeForce GT 650M' (P:0 D:0)
+[2016.11.08-14.30.28:165][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter 
+[2016.11.08-14.30.28:165][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GT 650M
+[2016.11.08-14.30.28:165][  0]LogD3D11RHI:   Driver Version: 375.63 (internal:21.21.13.7563, unified:375.63)
+[2016.11.08-14.30.28:165][  0]LogD3D11RHI:      Driver Date: 10-21-2016
+[2016.11.08-14.30.28:165][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.11.08-14.30.28:183][  0]LogD3D11RHI: Async texture creation enabled
+[2016.11.08-14.30.28:201][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2016.11.08-14.30.28:202][  0]LogShaderCompilers: Guid format shader working directory is -28 characters bigger than the processId version (../../../../../../Users/catti/Documents/Unreal Projects/MyVRTestController/Intermediate/Shaders/WorkingDirectory/7316/).
+[2016.11.08-14.30.28:202][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/catti/AppData/Local/Temp/UnrealShaderWorkingDir/E1E80EC0447269D3F8CF5DAFFD3A4876/'.
+[2016.11.08-14.30.28:202][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.11.08-14.30.29:374][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.11.08-14.30.29:385][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.11.08-14.30.29:395][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.11.08-14.30.29:405][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.11.08-14.30.29:416][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.11.08-14.30.29:425][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.11.08-14.30.29:433][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.11.08-14.30.29:442][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.11.08-14.30.29:450][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.11.08-14.30.29:459][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.11.08-14.30.29:467][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.11.08-14.30.29:484][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.11.08-14.30.29:484][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.11.08-14.30.29:485][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.11.08-14.30.29:507][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.11.08-14.30.29:516][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.11.08-14.30.29:524][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2016.11.08-14.30.29:533][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.11.08-14.30.29:541][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.11.08-14.30.29:550][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.11.08-14.30.29:550][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.11.08-14.30.29:643][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.11.08-14.30.29:739][  0]LogDerivedDataCache: Loaded boot cache 0.10s 88MB C:/Users/catti/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
+[2016.11.08-14.30.29:739][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/catti/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc
+[2016.11.08-14.30.29:739][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/catti/Documents/Unreal Projects/MyVRTestController/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.11.08-14.30.29:739][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.11.08-14.30.29:739][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/catti/Documents/Unreal Projects/MyVRTestController/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.11.08-14.30.29:739][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.11.08-14.30.29:760][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.11.08-14.30.29:772][  0]LogDerivedDataCache: Using Local data cache path C:/Users/catti/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.11.08-14.30.30:051][  0]LogInit: Selected Device Profile: [Windows]
+[2016.11.08-14.30.30:054][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.11.08-14.30.30:164][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.11.08-14.30.30:164][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.11.08-14.30.30:164][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.11.08-14.30.30:247][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.11.08-14.30.30:579][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3106830, ProjectName: myvrtestcontroller, ProjectVersion: , EngineNetworkVersion: 1, GameNetworkVersion: 0, NetworkChecksum: 2195630713
+[2016.11.08-14.30.30:619][  0]LogAssetRegistry: FAssetRegistry took 0.0214 seconds to start up
+[2016.11.08-14.30.30:659][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.037157 seconds
+[2016.11.08-14.30.30:665][  0]LogUObjectArray: 29778 objects as part of root set at end of initial load.
+[2016.11.08-14.30.30:665][  0]LogUObjectAllocator: 6125456 out of 0 bytes used by permanent object pool.
+[2016.11.08-14.30.30:665][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.11.08-14.30.30:672][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.11.08-14.30.30:924][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.11.08-14.30.30:924][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.11.08-14.30.31:671][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2016.11.08-14.30.31:694][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.11.08-14.30.31:963][  0]SourceControl: Info Source control is disabled
+[2016.11.08-14.30.32:010][  0]SourceControl: Info Source control is disabled
+[2016.11.08-14.30.32:022][  0]SourceControl: Info Source control is disabled
+[2016.11.08-14.30.32:033][  0]SourceControl: Info Source control is disabled
+[2016.11.08-14.30.32:392][  0]LogEngine: Initializing Engine...
+[2016.11.08-14.30.32:407][  0]LogHMD: SteamVR initialized.  Driver: null  Display: Null 4711
+[2016.11.08-14.30.32:567][  0]LogAIModule: Creating AISystem for world Untitled
+[2016.11.08-14.30.32:573][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.11.08-14.30.32:585][  0]LogInit: FAudioDevice initialized.
+[2016.11.08-14.30.32:635][  0]LogDerivedDataCache: Saved boot cache 0.05s 88MB C:/Users/catti/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
+[2016.11.08-14.30.32:648][  0]LogInit: Texture streaming: Enabled
+[2016.11.08-14.30.32:684][  0]LogInit: Transaction tracking system initialized
+[2016.11.08-14.30.32:708][  0]BlueprintLog: New page: Editor Load
+[2016.11.08-14.30.32:791][  0]LocalizationService: Info Localization service is disabled
+[2016.11.08-14.30.32:878][  0]LogConsoleResponse:Display: 
+[2016.11.08-14.30.33:008][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2016.11.08-14.30.33:008][  0]LogCook:Display: Mobile HDR setting 0
+[2016.11.08-14.30.33:202][  0]LogFileCache: Scanning file cache for directory 'C:/Users/catti/Documents/Unreal Projects/MyVRTestController/Content/' took 0.01s
+[2016.11.08-14.30.33:202][  0]SourceControl: Info Source control is disabled
+[2016.11.08-14.30.33:202][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.11.08-14.30.33:203][  0]LightingResults: New page: Lighting Build
+[2016.11.08-14.30.33:206][  0]MapCheck: New page: Map Check
+[2016.11.08-14.30.33:206][  0]LightingResults: New page: Lighting Build
+[2016.11.08-14.30.33:544][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2016.11.08-14.30.33:550][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.11.08-14.30.33:554][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.11.08-14.30.33:606][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 51.669ms to complete.
+[2016.11.08-14.30.33:606][  0]LogFileHelpers: Loading map 'Template_Default' took 0.404
+[2016.11.08-14.30.33:738][  0]LogCollectionManager: Loaded 0 collections in 0.002169 seconds
+[2016.11.08-14.30.33:778][  0]LogFileCache: Scanning file cache for directory 'C:/Users/catti/Documents/Unreal Projects/MyVRTestController/Saved/Collections/' took 0.01s
+[2016.11.08-14.30.33:778][  0]LogFileCache: Scanning file cache for directory 'C:/Users/catti/Documents/Unreal Projects/MyVRTestController/Content/Developers/catti/Collections/' took 0.01s
+[2016.11.08-14.30.33:778][  0]LogFileCache: Scanning file cache for directory 'C:/Users/catti/Documents/Unreal Projects/MyVRTestController/Content/Collections/' took 0.01s
+[2016.11.08-14.30.33:778][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2016.11.08-14.30.33:790][  0]LogContentBrowser: Native class hierarchy populated in 0.0111 seconds. Added 2141 classes and 415 folders.
+[2016.11.08-14.30.33:795][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.11.08-14.30.33:795][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.11.08-14.30.33:796][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0006 seconds. Added 12 classes and 0 folders.
+[2016.11.08-14.30.33:801][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2016.11.08-14.30.33:853][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2016.11.08-14.30.33:858][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2016.11.08-14.30.33:876][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.11.08-14.30.33:884][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.11.08-14.30.33:912][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2016.11.08-14.30.33:913][  0]LogLoad: (Engine Initialization) Total time: 7.61 seconds
+[2016.11.08-14.30.33:913][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.07 seconds
+[2016.11.08-14.30.33:913][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.11.08-14.30.33:913][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.11.08-14.30.33:921][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.11.08-14.30.33:922][  0]LogOcInput: OculusInput pre-init called
+[2016.11.08-14.30.33:941][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.11.08-14.30.34:079][  1]LogAssetRegistry: Asset discovery search completed in 3.4817 seconds
+[2016.11.08-14.30.34:079][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.11.08-14.30.34:079][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000025 seconds (updated 0 objects)
+[2016.11.08-14.30.34:123][  2]LogRenderer: Reallocating scene render targets to support 816x372 (Frame:2).
+[2016.11.08-14.33.52:114][753]LogRenderer: Reallocating scene render targets to support 1168x600 (Frame:168).
+[2016.11.08-14.33.52:283][761]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.11.08-14.34.30:037][204]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 112 classes and 0 folders.
+[2016.11.08-14.34.31:145][204]LogRenderer: Reallocating scene render targets to support 1168x940 (Frame:1171).
+[2016.11.08-14.34.44:338][437]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.11.08-14.36.16:773][485]BlueprintLog: New page: Compile VR_Gamemode
+[2016.11.08-14.36.18:616][550]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VR_Gamemode" FILE="../../../../../../Users/catti/Documents/Unreal Projects/MyVRTestController/Content/VR_Gamemode.uasset" SILENT=true
+[2016.11.08-14.36.18:642][550]LogSavePackage: Save=23.72ms
+[2016.11.08-14.36.18:642][550]LogSavePackage: Moving '../../../../../../Users/catti/Documents/Unreal Projects/MyVRTestController/Saved/VR_GamemodeB67EB6424C17902A919594BDB2759A5A.tmp' to '../../../../../../Users/catti/Documents/Unreal Projects/MyVRTestController/Content/VR_Gamemode.uasset'
+[2016.11.08-14.36.18:647][550]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/catti/Documents/Unreal Projects/MyVRTestController/Content/VR_Gamemode.uasset
+[2016.11.08-14.36.49:028][112]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.11.08-14.36.51:462][254]Cmd: UpdateLandscapeSetup
+[2016.11.08-14.40.40:118][352]LogSavePackage: Save=60.15ms
+[2016.11.08-14.40.40:118][352]LogSavePackage: Moving '../../../../../../Users/catti/Documents/Unreal Projects/MyVRTestController/Saved/Untitled_1_Auto13112AA0C4FFE2ACC7E035083969C5700.tmp' to '../../../../../../Users/catti/Documents/Unreal Projects/MyVRTestController/Saved/Autosaves/Temp/Untitled_1_Auto1.umap'
+[2016.11.08-14.40.40:122][352]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/catti/Documents/Unreal Projects/MyVRTestController/Saved/Autosaves/Temp/Untitled_1_Auto1.umap
+[2016.11.08-14.40.40:131][352]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.120
+[2016.11.08-14.40.40:131][352]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.120
+[2016.11.08-14.40.40:136][352]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/VR_Pawn] ([1] browsable assets)...
+[2016.11.08-14.40.40:136][352]OBJ SavePackage: Finished generating thumbnails for package [/Game/VR_Pawn]
+[2016.11.08-14.40.40:136][352]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VR_Pawn" FILE="../../../../../../Users/catti/Documents/Unreal Projects/MyVRTestController/Saved/Autosaves/Game/VR_Pawn_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2016.11.08-14.40.40:175][352]LogSavePackage: Save=35.23ms
+[2016.11.08-14.40.40:175][352]LogSavePackage: Moving '../../../../../../Users/catti/Documents/Unreal Projects/MyVRTestController/Saved/VR_Pawn_Auto1351A88D745DB29EE621042ACEA072A33.tmp' to '../../../../../../Users/catti/Documents/Unreal Projects/MyVRTestController/Saved/Autosaves/Game/VR_Pawn_Auto1.uasset'
+[2016.11.08-14.40.40:177][352]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/catti/Documents/Unreal Projects/MyVRTestController/Saved/Autosaves/Game/VR_Pawn_Auto1.uasset
+[2016.11.08-14.40.40:178][352]LogFileHelpers: Auto-saving content packages took 0.043
+[2016.11.08-14.41.01:653][741]BlueprintLog: New page: Compile VR_Pawn
+[2016.11.08-14.41.02:593][757]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VR_Pawn" FILE="../../../../../../Users/catti/Documents/Unreal Projects/MyVRTestController/Content/VR_Pawn.uasset" SILENT=true
+[2016.11.08-14.41.02:620][757]LogSavePackage: Save=24.01ms
+[2016.11.08-14.41.02:620][757]LogSavePackage: Moving '../../../../../../Users/catti/Documents/Unreal Projects/MyVRTestController/Saved/VR_PawnAAB159D147407A7453F57E812CECC68E.tmp' to '../../../../../../Users/catti/Documents/Unreal Projects/MyVRTestController/Content/VR_Pawn.uasset'
+[2016.11.08-14.41.02:628][757]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/catti/Documents/Unreal Projects/MyVRTestController/Content/VR_Pawn.uasset
+[2016.11.08-14.41.17:746][937]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.11.08-14.42.05:496][176]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.11.08-14.42.05:497][176]PIE: New page: PIE session: Untitled_1 (Nov 8, 2016, 4:42:05 PM)
+[2016.11.08-14.42.05:497][176]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2016.11.08-14.42.05:502][176]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005043s)
+[2016.11.08-14.42.05:503][176]LogAIModule: Creating AISystem for world Untitled_1
+[2016.11.08-14.42.05:504][176]LogPlayLevel: PIE: World Init took: (0.002001s)
+[2016.11.08-14.42.05:504][176]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.007548s)
+[2016.11.08-14.42.05:538][176]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.11.08-14.42.05:555][176]LogInit: FAudioDevice initialized.
+[2016.11.08-14.42.05:668][176]LogWorld: Game class is 'VR_Gamemode_C'
+[2016.11.08-14.42.05:673][176]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2016.11.08-15.42.05
+[2016.11.08-14.42.05:674][176]LogWorld: Bringing up level for play took: 0.003467
+[2016.11.08-14.42.05:681][176]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0010 seconds. Added 11 classes and 0 folders.
+[2016.11.08-14.42.05:682][176]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.11.08-14.42.05:682][176]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.11.08-14.42.05:682][176]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.11.08-14.42.05:684][176]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.11.08-14.42.05:694][176]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.061
+[2016.11.08-14.42.05:738][177]LogRenderer: Reallocating scene render targets to support 2688x1512 (Frame:13194).
+[2016.11.08-14.42.11:300][310]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.11:341][312]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.11:359][313]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.11:376][314]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.11:393][315]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.11:411][316]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.11:430][317]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.11:446][318]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.11:462][319]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.11:479][320]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.11:496][321]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.11:513][322]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.11:529][323]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.11:548][324]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.11:565][325]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.11:582][326]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.11:603][327]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.11:619][328]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.11:637][329]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.11:653][330]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.11:671][331]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.11:689][332]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.11:706][333]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.11:723][334]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.11:740][335]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.11:747][335]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.11:810][337]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.11:827][338]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.11:844][339]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.11:861][340]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.11:877][341]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.11:893][342]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.11:911][343]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.11:927][344]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.11:945][345]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.11:960][346]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.11:977][347]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.11:993][348]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.12:011][349]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.12:028][350]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.12:043][351]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.12:060][352]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.12:078][353]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.12:095][354]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.12:112][355]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.12:129][356]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.12:146][357]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.12:162][358]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.12:180][359]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.12:196][360]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.12:216][361]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.12:233][362]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.12:251][363]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.12:267][364]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.12:284][365]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.12:300][366]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.12:322][367]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.12:339][368]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.12:355][369]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.12:372][370]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.12:390][371]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.12:405][372]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.12:427][373]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.12:443][374]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.12:460][375]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.12:478][376]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.12:501][377]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.12:517][378]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.12:533][379]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.12:550][380]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.12:569][381]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.12:585][382]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.12:601][383]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.12:618][384]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.12:634][385]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.12:651][386]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.12:668][387]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.12:683][388]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.12:704][389]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.12:722][390]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.12:738][391]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.12:755][392]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.12:772][393]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.12:788][394]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.12:811][395]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.12:827][396]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.12:844][397]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.12:860][398]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.12:877][399]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.12:895][400]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.12:911][401]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.12:929][402]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.12:948][403]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.12:963][404]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.12:984][405]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.12:999][406]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.13:016][407]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.13:034][408]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.13:051][409]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.13:067][410]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.13:083][411]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.13:099][412]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.13:118][413]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.13:133][414]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.13:154][415]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.13:171][416]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.13:187][417]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.13:204][418]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.13:222][419]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.13:238][420]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.13:255][421]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.13:273][422]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.13:290][423]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.13:307][424]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.13:328][425]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.13:344][426]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.13:361][427]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.13:380][428]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.13:396][429]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.13:412][430]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.13:429][431]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.13:436][431]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.13:495][433]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.13:510][434]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.13:527][435]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.13:543][436]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.13:561][437]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.13:564][437]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.13:616][439]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.13:633][440]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.13:654][441]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.13:668][442]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.13:684][443]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.13:700][444]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.13:718][445]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.13:734][446]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.13:751][447]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.13:767][448]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.13:784][449]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.13:801][450]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.13:817][451]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.13:822][451]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.13:875][453]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.13:892][454]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.13:908][455]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.13:912][455]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.13:964][457]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.13:979][458]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.13:999][459]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.14:013][460]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.14:030][461]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.14:045][462]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.14:064][463]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.14:079][464]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.14:096][465]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.14:112][466]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.14:129][467]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.14:146][468]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.14:163][469]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.14:179][470]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.14:196][471]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.14:212][472]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.14:230][473]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.14:246][474]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.14:264][475]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.14:281][476]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.14:298][477]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.14:316][478]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.14:333][479]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.14:350][480]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.14:370][481]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.14:388][482]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.14:403][483]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.14:422][484]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.14:438][485]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.14:455][486]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.14:471][487]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.14:489][488]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.14:508][489]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.14:525][490]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.14:542][491]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.14:558][492]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.14:576][493]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.14:592][494]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.14:603][494]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.14:666][496]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.14:682][497]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.14:698][498]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.14:715][499]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.14:732][500]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.14:748][501]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.14:765][502]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.14:782][503]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.14:798][504]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.14:816][505]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.14:832][506]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.14:850][507]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.14:866][508]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.14:882][509]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.14:899][510]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.14:916][511]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.14:932][512]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.14:951][513]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.14:965][514]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.14:984][515]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.14:998][516]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.15:016][517]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.15:032][518]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.15:051][519]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.15:065][520]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.15:082][521]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.15:100][522]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.15:116][523]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.15:132][524]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.15:149][525]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.15:165][526]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.15:182][527]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.15:200][528]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.15:217][529]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.15:235][530]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.15:253][531]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.15:269][532]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.15:286][533]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.15:303][534]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.15:320][535]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.15:337][536]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.15:353][537]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.15:371][538]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.15:389][539]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.15:407][540]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.15:423][541]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.15:441][542]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.15:460][543]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.15:474][544]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.15:497][545]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.15:512][546]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.15:529][547]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.15:545][548]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.15:564][549]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.15:579][550]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.15:596][551]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.15:614][552]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.15:630][553]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.15:651][554]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.15:664][555]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.15:682][556]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.15:698][557]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.15:715][558]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.15:731][559]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.15:748][560]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.15:766][561]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.15:782][562]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.15:799][563]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.15:816][564]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.15:833][565]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.15:850][566]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.15:867][567]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.15:883][568]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.15:903][569]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.15:919][570]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.15:936][571]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.15:954][572]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.15:972][573]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.15:988][574]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.15:992][574]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.16:067][576]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.16:084][577]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.16:101][578]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.16:117][579]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.16:135][580]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.16:151][581]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.16:171][582]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.16:187][583]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.16:204][584]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.16:220][585]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.16:240][586]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.16:257][587]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.16:274][588]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.16:290][589]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.16:307][590]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.16:323][591]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.16:342][592]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.16:358][593]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.16:375][594]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.16:391][595]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.16:408][596]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.16:425][597]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.16:442][598]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.16:458][599]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.16:476][600]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.16:493][601]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.16:509][602]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.16:525][603]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.16:542][604]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.16:559][605]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.16:575][606]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.16:595][607]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.16:616][608]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.16:635][609]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.16:653][610]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.16:670][611]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.16:687][612]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.16:704][613]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.16:721][614]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.16:737][615]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.16:754][616]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.16:772][617]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.16:790][618]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.16:807][619]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.16:824][620]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.16:842][621]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.16:859][622]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.16:879][623]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.16:895][624]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.16:912][625]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.16:930][626]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.16:948][627]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.16:965][628]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.16:983][629]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.17:000][630]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.17:017][631]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.17:034][632]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.17:051][633]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.17:068][634]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.17:088][635]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.17:105][636]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.17:124][637]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.17:141][638]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.17:157][639]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.17:175][640]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.17:192][641]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.17:208][642]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.17:224][643]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.17:242][644]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.17:260][645]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.17:276][646]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.17:292][647]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.17:309][648]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.17:326][649]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.17:342][650]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.17:359][651]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.17:377][652]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.17:394][653]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.17:411][654]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.17:427][655]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.17:444][656]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.17:460][657]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.17:476][658]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.17:496][659]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.17:511][660]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.17:531][661]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.17:547][662]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.17:567][663]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.17:583][664]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.17:600][665]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.17:617][666]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.17:634][667]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.17:651][668]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.17:669][669]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.17:686][670]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.17:704][671]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.17:720][672]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.17:739][673]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.17:755][674]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.17:773][675]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.17:788][676]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.17:805][677]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.17:823][678]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.17:840][679]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.17:856][680]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.17:873][681]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.17:889][682]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.17:909][683]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.17:926][684]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.17:942][685]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.17:960][686]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.17:977][687]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.17:993][688]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.18:010][689]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.18:026][690]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.18:043][691]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.18:061][692]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.18:077][693]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.18:093][694]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.18:110][695]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.18:126][696]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.18:144][697]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.18:160][698]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.18:177][699]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.18:193][700]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.18:210][701]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.18:227][702]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.18:243][703]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.18:259][704]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.18:276][705]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.18:296][706]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.18:311][707]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.18:330][708]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.18:345][709]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.18:363][710]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.18:380][711]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.18:398][712]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.18:416][713]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.18:434][714]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.18:450][715]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.18:467][716]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.18:484][717]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.18:501][718]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.18:517][719]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.18:556][719]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.33:507][719]LogSavePackage: Save=66.57ms
+[2016.11.08-14.42.33:507][719]LogSavePackage: Moving '../../../../../../Users/catti/Documents/Unreal Projects/MyVRTestController/Saved/VRTestFromBlank3557C31743412564BADB3DB44EF491F2.tmp' to '../../../../../../Users/catti/Documents/Unreal Projects/MyVRTestController/Content/VRTestFromBlank.umap'
+[2016.11.08-14.42.33:514][719]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/catti/Documents/Unreal Projects/MyVRTestController/Content/VRTestFromBlank.umap
+[2016.11.08-14.42.33:566][719]LogFileHelpers: Saving map 'VRTestFromBlank' took 0.966
+[2016.11.08-14.42.33:604][721]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.33:630][722]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.33:655][723]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.33:676][724]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.33:678][724]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.33:728][726]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.33:747][727]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.33:768][728]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.33:784][729]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.33:801][730]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.33:820][731]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.33:835][732]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.33:854][733]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.33:881][734]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.33:897][735]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.33:913][736]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.33:930][737]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.33:947][738]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.33:965][739]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.33:982][740]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.33:998][741]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.34:015][742]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.34:031][743]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.34:049][744]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.34:066][745]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.34:083][746]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.34:100][747]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.34:117][748]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.34:134][749]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.34:153][750]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.34:169][751]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.34:186][752]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.34:202][753]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.34:219][754]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.34:239][755]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.34:259][756]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.34:275][757]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.34:295][758]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.34:312][759]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.34:336][760]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.34:353][761]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.34:371][762]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.34:388][763]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.34:406][764]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.34:423][765]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.34:440][766]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.34:457][767]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.34:474][768]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.34:497][769]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.34:516][770]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.34:534][771]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.34:551][772]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.34:573][773]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.34:591][774]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.34:608][775]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.34:628][776]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.34:646][777]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.34:664][778]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.34:681][779]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.34:699][780]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.34:717][781]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.34:739][782]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.34:758][783]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.34:775][784]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.34:792][785]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.34:809][786]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.34:826][787]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.34:843][788]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.34:859][789]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.34:876][790]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.34:894][791]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.34:911][792]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.34:928][793]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.34:947][794]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.34:965][795]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.34:981][796]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.35:006][796]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.35:050][798]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.35:175][799]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.35:197][800]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.35:218][801]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.35:238][802]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.35:260][803]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.35:281][804]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.35:303][805]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.35:324][806]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.35:345][807]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.35:366][808]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.35:388][809]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.35:408][810]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.35:431][811]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.35:452][812]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.35:472][813]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.35:494][814]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.35:514][815]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.35:535][816]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.35:555][817]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.35:575][818]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.35:597][819]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.35:619][820]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.35:639][821]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.35:660][822]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.35:680][823]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.35:701][824]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.35:721][825]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.35:740][826]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.35:761][827]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.35:782][828]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.35:802][829]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.35:823][830]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.35:846][831]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.35:867][832]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.35:886][833]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.35:906][834]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.35:926][835]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.35:947][836]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.35:966][837]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.35:987][838]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.36:007][839]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.36:028][840]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.36:049][841]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.36:068][842]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.36:089][843]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.36:110][844]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.36:132][845]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.36:152][846]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.36:172][847]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.36:192][848]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.36:214][849]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.36:235][850]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.36:255][851]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.36:274][852]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.36:296][853]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.36:318][854]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.36:338][855]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.36:359][856]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.36:379][857]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.36:400][858]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.36:420][859]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.36:441][860]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.36:462][861]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.36:483][862]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.36:505][863]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.36:527][864]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.36:548][865]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.36:574][866]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.36:596][867]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.36:617][868]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.36:638][869]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.36:662][870]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.36:684][871]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.36:717][872]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.36:738][873]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.36:759][874]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.36:780][875]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.36:803][876]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.36:825][877]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.36:846][878]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.36:868][879]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.36:889][880]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.36:916][881]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.36:936][882]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.36:957][883]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.36:978][884]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.36:999][885]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.37:019][886]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.37:039][887]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.37:062][888]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.37:085][889]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.37:106][890]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.37:129][891]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.37:150][892]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.37:169][893]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.37:191][894]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.37:212][895]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.37:232][896]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.37:253][897]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.37:276][898]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.37:298][899]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.37:319][900]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.37:321][900]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.40:015][902]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.40:032][903]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.40:048][904]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.40:066][905]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.40:082][906]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.40:100][907]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.40:116][908]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.40:133][909]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.40:149][910]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.40:167][911]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.40:184][912]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.40:202][913]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.40:218][914]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.40:236][915]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.40:252][916]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.40:269][917]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.40:285][918]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.40:302][919]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.40:319][920]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.40:336][921]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.40:353][922]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.40:370][923]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.40:387][924]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.40:403][925]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.40:420][926]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.40:436][927]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.40:453][928]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.40:470][929]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.40:488][930]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.40:504][931]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.40:520][932]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.40:537][933]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.40:557][934]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.40:573][935]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.40:591][936]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.40:607][937]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.40:625][938]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.40:641][939]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.40:658][940]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.40:674][941]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.40:690][942]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.40:707][943]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.40:729][944]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.40:746][945]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.40:763][946]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.40:780][947]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.40:797][948]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.40:815][949]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.40:831][950]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.40:852][951]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.40:871][952]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.40:889][953]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.40:906][954]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.40:923][955]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.40:942][956]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.40:959][957]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.40:977][958]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.40:995][959]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.41:012][960]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.41:032][961]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.41:051][962]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.41:070][963]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.41:087][964]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.41:104][965]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.41:121][966]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.41:140][967]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.41:158][968]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.41:176][969]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.41:192][970]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.41:209][971]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.41:225][972]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.41:242][973]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.41:260][974]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.41:277][975]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.41:293][976]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.41:310][977]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.41:328][978]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.41:344][979]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.41:361][980]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.41:377][981]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.41:396][982]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.41:413][983]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.41:430][984]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.41:447][985]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.41:464][986]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.41:481][987]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.41:499][988]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.41:520][989]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.41:536][990]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.41:552][991]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.41:571][992]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.41:586][993]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.41:604][994]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.41:620][995]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.41:637][996]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.41:654][997]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.41:670][998]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.41:687][999]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.41:704][  0]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.41:720][  1]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.41:743][  2]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.41:759][  3]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.41:775][  4]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.41:792][  5]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.41:809][  6]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.41:826][  7]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.41:841][  8]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.41:858][  9]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.41:875][ 10]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.41:892][ 11]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.41:908][ 12]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.41:926][ 13]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.41:942][ 14]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.41:958][ 15]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.41:975][ 16]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.41:991][ 17]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.42:008][ 18]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.42:027][ 19]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.42:044][ 20]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.42:061][ 21]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.42:077][ 22]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.42:093][ 23]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.42:109][ 24]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.42:126][ 25]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.42:142][ 26]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.42:158][ 27]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.42:175][ 28]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.42:191][ 29]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.42:208][ 30]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.42:225][ 31]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.42:242][ 32]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.42:259][ 33]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.42:275][ 34]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.42:291][ 35]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.42:308][ 36]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.42:325][ 37]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.42:342][ 38]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.42:359][ 39]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.42:375][ 40]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.42:392][ 41]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.42:416][ 42]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.42:434][ 43]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.42:449][ 44]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.42:466][ 45]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.42:481][ 46]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.42:498][ 47]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.42:514][ 48]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.42:531][ 49]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.42:548][ 50]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.42:564][ 51]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.42:583][ 52]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.42:599][ 53]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.42:614][ 54]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.42:631][ 55]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.42:648][ 56]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.42:665][ 57]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.42:681][ 58]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.42:699][ 59]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.42:716][ 60]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.42:732][ 61]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.42:753][ 62]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.42:770][ 63]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.42:786][ 64]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.42:804][ 65]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.42:820][ 66]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.42:837][ 67]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.42:857][ 68]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.42:874][ 69]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.42:891][ 70]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.42:907][ 71]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.42:924][ 72]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.42:940][ 73]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.42:957][ 74]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.42:974][ 75]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.42:991][ 76]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.43:008][ 77]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.43:029][ 78]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.43:043][ 79]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.43:062][ 80]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.43:078][ 81]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.43:094][ 82]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.43:111][ 83]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.43:130][ 84]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.43:144][ 85]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.43:164][ 86]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.43:181][ 87]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.43:197][ 88]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.43:214][ 89]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.43:232][ 90]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.43:247][ 91]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.43:268][ 92]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.43:285][ 93]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.43:302][ 94]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.43:319][ 95]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.43:335][ 96]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.43:353][ 97]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.43:369][ 98]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.43:385][ 99]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.43:402][100]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.43:419][101]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.43:438][102]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.43:454][103]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.43:470][104]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.43:488][105]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.43:505][106]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.43:521][107]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.43:541][108]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.43:558][109]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.43:575][110]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.43:591][111]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.43:608][112]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.43:624][113]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.43:645][114]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.43:661][115]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.43:678][116]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.43:695][117]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.43:712][118]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.43:729][119]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.43:749][120]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.43:763][121]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.43:779][122]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.43:797][123]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.43:813][124]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.43:830][125]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.43:849][126]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.43:865][127]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.43:882][128]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.43:899][129]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.43:916][130]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.43:933][131]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.43:950][132]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.43:966][133]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.43:986][134]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.44:004][135]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.44:019][136]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.44:037][137]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.44:053][138]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.44:070][139]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.44:089][140]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.44:107][141]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.44:123][142]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.44:141][143]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.44:158][144]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.44:175][145]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.44:192][146]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.44:209][147]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.44:226][148]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.44:245][149]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.44:261][150]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.44:280][151]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.44:296][152]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.44:313][153]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.44:331][154]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.44:348][155]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.44:365][156]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.44:381][157]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.44:401][158]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.44:416][159]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.44:434][160]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.44:450][161]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.44:467][162]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.44:485][163]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.44:501][164]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.44:518][165]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.44:535][166]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.44:552][167]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.44:569][168]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.44:585][169]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.44:601][170]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.44:618][171]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.44:637][172]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.44:652][173]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.44:671][174]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.44:689][175]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.44:704][176]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.44:721][177]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.44:738][178]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.44:754][179]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.44:771][180]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.44:787][181]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.44:806][182]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.44:822][183]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.44:840][184]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.44:857][185]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.44:874][186]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.44:890][187]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.44:909][188]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.44:925][189]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.44:941][190]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.44:957][191]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.44:975][192]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.44:991][193]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.45:009][194]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.45:027][195]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.45:044][196]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.45:060][197]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.45:084][198]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.45:414][199]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.45:746][200]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.46:079][201]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.46:412][202]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.46:745][203]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.47:080][204]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.47:412][205]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.47:745][206]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.48:080][207]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.48:413][208]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.48:745][209]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.49:079][210]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.49:413][211]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.49:746][212]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.50:079][213]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.50:412][214]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.50:746][215]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.51:080][216]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.51:414][217]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.51:746][218]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.52:079][219]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.52:413][220]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.52:746][221]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.53:081][222]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.53:414][223]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.53:746][224]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.54:080][225]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.54:412][226]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.54:746][227]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.55:080][228]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.55:412][229]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.55:746][230]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.56:079][231]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.56:413][232]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.56:747][233]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.57:081][234]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.57:413][235]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.57:747][236]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.58:083][237]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.58:413][238]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.58:748][239]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.59:081][240]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.59:413][241]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.42.59:745][242]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.00:082][243]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.00:413][244]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.00:752][245]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.01:080][246]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.01:415][247]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.01:747][248]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.02:080][249]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.02:414][250]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.02:746][251]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.03:082][252]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.03:413][253]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.03:746][254]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.04:079][255]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.04:413][256]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.04:746][257]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.05:079][258]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.05:416][259]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.05:746][260]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.06:079][261]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.06:412][262]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.06:745][263]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.07:078][264]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.07:412][265]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.07:744][266]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.08:079][267]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.08:412][268]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.08:744][269]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.09:078][270]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.09:412][271]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.09:744][272]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.10:078][273]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.10:412][274]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.10:744][275]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.11:078][276]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.11:412][277]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.11:745][278]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.12:079][279]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.12:411][280]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.12:745][281]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.13:078][282]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.13:411][283]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.13:745][284]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.14:078][285]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.14:411][286]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.14:745][287]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.15:078][288]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.15:411][289]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.15:745][290]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.16:078][291]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.16:412][292]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.16:745][293]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.17:078][294]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.17:412][295]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.17:745][296]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.18:078][297]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.18:411][298]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.18:744][299]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.19:077][300]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.19:411][301]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.19:744][302]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.20:080][303]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.20:411][304]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.20:745][305]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.21:079][306]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.21:411][307]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.21:745][308]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.22:080][309]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.22:411][310]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.22:744][311]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.23:078][312]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.23:412][313]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.23:744][314]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.24:078][315]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.24:412][316]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.24:744][317]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.25:078][318]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.25:412][319]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.25:746][320]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.26:079][321]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.26:411][322]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.26:744][323]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.27:078][324]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.27:412][325]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.27:744][326]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.28:078][327]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.28:412][328]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.28:745][329]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.29:078][330]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.29:413][331]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.29:744][332]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.30:078][333]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.30:412][334]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.30:745][335]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.31:078][336]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.31:412][337]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.31:745][338]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.32:080][339]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.32:411][340]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.32:745][341]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.33:078][342]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.33:411][343]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.33:745][344]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.34:078][345]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.34:413][346]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.34:745][347]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.35:079][348]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.35:416][349]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.35:751][350]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.36:093][351]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.36:411][352]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.36:744][353]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.37:077][354]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.37:412][355]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.37:744][356]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.38:077][357]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.38:408][358]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.38:743][359]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.39:074][360]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.39:410][361]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.39:757][362]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.39:758][362]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.40:411][364]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.40:744][365]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.41:077][366]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.41:411][367]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.41:744][368]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.42:078][369]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.42:412][370]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.42:745][371]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.43:078][372]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.43:410][373]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.43:744][374]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.44:078][375]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.44:411][376]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.44:744][377]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.45:077][378]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.45:412][379]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.45:744][380]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.46:078][381]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.46:410][382]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.46:744][383]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.47:077][384]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.47:412][385]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.47:745][386]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.48:079][387]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.48:411][388]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.48:745][389]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.49:078][390]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.49:412][391]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.49:745][392]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.50:078][393]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.50:412][394]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.50:745][395]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.51:077][396]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.51:411][397]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.51:745][398]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.52:077][399]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.52:410][400]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.52:744][401]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.53:077][402]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.53:410][403]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.53:744][404]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.54:076][405]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.54:411][406]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.54:744][407]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.55:077][408]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.55:411][409]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.55:744][410]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.56:077][411]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.56:410][412]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.56:744][413]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.57:077][414]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.57:410][415]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.57:744][416]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.58:077][417]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.58:411][418]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.58:744][419]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43.59:077][420]LogHMD: Warning:  SteamVR Compositor had an error on present (108)
+[2016.11.08-14.43
