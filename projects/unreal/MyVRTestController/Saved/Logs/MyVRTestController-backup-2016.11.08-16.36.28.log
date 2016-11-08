@@ -1,0 +1,901 @@
+﻿Log file open, 11/08/16 16:03:41
+LogInit:Display: Running engine for game: MyVRTestController
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1480697456) SRandInit(1480697456).
+LogTaskGraph: Started task graph with 5 named threads and 10 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.090465
+LogPluginManager: Loaded Plugin Paper2D, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
+LogPluginManager: Loaded Plugin LightPropagationVolume, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
+LogPluginManager: Loaded Plugin BlankPlugin, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
+LogPluginManager: Loaded Plugin CodeLiteSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/CodeLiteSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin GitSourceControl, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/GitSourceControl/GitSourceControl.uplugin
+LogPluginManager: Loaded Plugin KDevelopSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/KDevelopSourceCodeAccess/KDevelopSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin NullSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/NullSourceCodeAccess/NullSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin OneSkyLocalizationService, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/OneSkyLocalizationService/OneSkyLocalizationService.uplugin
+LogPluginManager: Loaded Plugin PerforceSourceControl, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/PerforceSourceControl/PerforceSourceControl.uplugin
+LogPluginManager: Loaded Plugin SubversionSourceControl, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/SubversionSourceControl/SubversionSourceControl.uplugin
+LogPluginManager: Loaded Plugin UObjectPlugin, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/UObjectPlugin/UObjectPlugin.uplugin
+LogPluginManager: Loaded Plugin VisualStudioSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/VisualStudioSourceCodeAccess/VisualStudioSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin XCodeSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/XCodeSourceCodeAccess/XCodeSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin EpicSurvey, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/EpicSurvey/EpicSurvey.uplugin
+LogPluginManager: Loaded Plugin MacGraphicsSwitching, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/MacGraphicsSwitching/MacGraphicsSwitching.uplugin
+LogPluginManager: Loaded Plugin MobileLauncherProfileWizard, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/MobileLauncherProfileWizard/MobileLauncherProfileWizard.uplugin
+LogPluginManager: Loaded Plugin PluginBrowser, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/PluginBrowser/PluginBrowser.uplugin
+LogPluginManager: Loaded Plugin SpeedTreeImporter, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/SpeedTreeImporter/SpeedTreeImporter.uplugin
+LogPluginManager: Loaded Plugin SuperSearchEditor, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/SuperSearchEditor/SuperSearchEditor.uplugin
+LogPluginManager: Loaded Plugin AlembicImporter, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/AlembicImporter/AlembicImporter.uplugin
+LogPluginManager: Loaded Plugin BlueprintStats, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/BlueprintStats/BlueprintStats.uplugin
+LogPluginManager: Loaded Plugin CharacterAI, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin
+LogPluginManager: Loaded Plugin CodeEditor, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/CodeEditor/CodeEditor.uplugin
+LogPluginManager: Loaded Plugin CodeView, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/CodeView/CodeView.uplugin
+LogPluginManager: Loaded Plugin HTML5Networking, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/HTML5Networking/HTML5Networking.uplugin
+LogPluginManager: Loaded Plugin LiveEditor, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/LiveEditor/LiveEditor.uplugin
+LogPluginManager: Loaded Plugin OSVR, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/OSVR/OSVR.uplugin
+LogPluginManager: Loaded Plugin Phya, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/Phya/Phya.uplugin
+LogPluginManager: Loaded Plugin SignificanceManager, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/SignificanceManager/SignificanceManager.uplugin
+LogPluginManager: Loaded Plugin SimpleHMD, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/SimpleHMD/SimpleHMD.uplugin
+LogPluginManager: Loaded Plugin StereoPanorama, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/StereoPanorama/StereoPanorama.uplugin
+LogPluginManager: Loaded Plugin StructBox, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/StructBox/StructBox.uplugin
+LogPluginManager: Loaded Plugin AndroidMedia, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
+LogPluginManager: Loaded Plugin AvfMedia, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
+LogPluginManager: Loaded Plugin MediaPlayerEditor, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin
+LogPluginManager: Loaded Plugin WmfMedia, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin
+LogPluginManager: Loaded Plugin MessagingDebugger, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Messaging/MessagingDebugger/MessagingDebugger.uplugin
+LogPluginManager: Loaded Plugin TcpMessaging, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin
+LogPluginManager: Loaded Plugin UdpMessaging, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin
+LogPluginManager: Loaded Plugin LevelSequenceEditor, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin
+LogPluginManager: Loaded Plugin MatineeToLevelSequence, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/MovieScene/MatineeToLevelSequence/MatineeToLevelSequence.uplugin
+LogPluginManager: Loaded Plugin NetcodeUnitTest, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/NetcodeUnitTest.uplugin
+LogPluginManager: Loaded Plugin NUTUnrealEngine4, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/NUTUnrealEngine4.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGooglePlay, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/OnlineSubsystemGooglePlay.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemIOS, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/IOS/OnlineSubsystemIOS/OnlineSubsystemIOS.uplugin
+LogPluginManager: Loaded Plugin OnlineFramework, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineFramework/OnlineFramework.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystem, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemAmazon, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemAmazon/OnlineSubsystemAmazon.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemFacebook, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemFacebook/OnlineSubsystemFacebook.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemNull, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemOculus, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemOculus/OnlineSubsystemOculus.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemSteam, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemSteam/OnlineSubsystemSteam.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemUtils, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin
+LogPluginManager: Loaded Plugin IOSTapJoy, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Advertising/IOSTapJoy/IOSTapJoy.uplugin
+LogPluginManager: Loaded Plugin AnalyticsBlueprintLibrary, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/AnalyticsBlueprintLibrary.uplugin
+LogPluginManager: Loaded Plugin AnalyticsMulticast, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/AnalyticsMulticast/AnalyticsMulticast.uplugin
+LogPluginManager: Loaded Plugin Apsalar, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/Apsalar/Apsalar.uplugin
+LogPluginManager: Loaded Plugin FileLogging, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/FileLogging/FileLogging.uplugin
+LogPluginManager: Loaded Plugin Flurry, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/Flurry/Flurry.uplugin
+LogPluginManager: Loaded Plugin AndroidDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/AndroidDeviceProfileSelector/AndroidDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin AndroidMoviePlayer, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/AndroidMoviePlayer/AndroidMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin AppleMoviePlayer, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/AppleMoviePlayer/AppleMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ArchVisCharacter, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin
+LogPluginManager: Loaded Plugin CableComponent, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin
+LogPluginManager: Loaded Plugin CustomMeshComponent, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin
+LogPluginManager: Loaded Plugin ExampleDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin GearVR, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/GearVR/GearVR.uplugin
+LogPluginManager: Loaded Plugin GoogleVRController, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/GoogleVR/GoogleVRController/GoogleVRController.uplugin
+LogPluginManager: Loaded Plugin GoogleVRHMD, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/GoogleVR/GoogleVRHMD/GoogleVRHMD.uplugin
+LogPluginManager: Loaded Plugin IOSDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/IOSDeviceProfileSelector/IOSDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LeapMotion, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/LeapMotion/LeapMotion.uplugin
+LogPluginManager: Loaded Plugin LinuxDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/LinuxDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LiveEditorListenServer, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/LiveEditorListenServer/LiveEditorListenServer.uplugin
+LogPluginManager: Loaded Plugin OculusAudio, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/OculusAudio/OculusAudio.uplugin
+LogPluginManager: Loaded Plugin OculusInput, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/OculusInput/OculusInput.uplugin
+LogPluginManager: Loaded Plugin OculusLibrary, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/OculusLibrary/OculusLibrary.uplugin
+LogPluginManager: Loaded Plugin OculusRift, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin
+LogPluginManager: Loaded Plugin Oodle, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/PacketHandlers/CompressionComponents/Oodle/Oodle.uplugin
+LogPluginManager: Loaded Plugin ProceduralMeshComponent, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin
+LogPluginManager: Loaded Plugin SoundMod, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/SoundMod/SoundMod.uplugin
+LogPluginManager: Loaded Plugin SoundVisualizations, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/SoundVisualizations/SoundVisualizations.uplugin
+LogPluginManager: Loaded Plugin SteamController, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Steam/SteamController/SteamController.uplugin
+LogPluginManager: Loaded Plugin SteamVR, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin
+LogPluginManager: Loaded Plugin WebBrowserWidget, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/WebBrowserWidget/WebBrowserWidget.uplugin
+LogPluginManager: Loaded Plugin WindowsDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/WindowsDeviceProfileSelector/WindowsDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin WindowsMoviePlayer, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ScriptPlugin, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/ScriptPlugin/ScriptPlugin.uplugin
+LogPluginManager: Loaded Plugin SlateRemote, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+OCULUS: Info: [CAPI] LibOVR module is located at C:\Program Files\Oculus\Support\oculus-runtime\LibOVRRT64_1.dll
+OCULUS: Debug: Connected to the server running version (prod = 1).1.9.0(build = 292703) feature version = 0. Client runs version (prod = 1).1.9.0(build = 292703) feature version = 0
+LogInit: Build: ++UE4+Release-4.13-CL-3172292
+LogInit: Engine Version: 4.13.2-3172292+++UE4+Release-4.13
+LogInit: Compatible Engine Version: 4.13.0-3106830+++UE4+Release-4.13
+LogInit: Net CL: 3172292
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 5
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 6
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 12
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 4
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Oct 24 2016 14:29:06
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.13
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.13/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.11.08-15.03.42:474][  0]LogInit: Selected Device Profile: [Windows]
+[2016.11.08-15.03.42:474][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.11.08-15.03.42:483][  0]LogInit: Computer: DESKTOP-5QTR0BH
+[2016.11.08-15.03.42:483][  0]LogInit: User: i4DsVRUser
+[2016.11.08-15.03.42:483][  0]LogInit: CPU Page size=65536, Cores=6
+[2016.11.08-15.03.42:483][  0]LogInit: High frequency timer resolution =3.220796 MHz
+[2016.11.08-15.03.42:483][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2016.11.08-15.03.42:483][  0]LogMemory: Platform Memory Stats for Windows
+[2016.11.08-15.03.42:483][  0]LogMemory: Process Physical Memory: 265.42 MB used, 265.42 MB peak
+[2016.11.08-15.03.42:483][  0]LogMemory: Process Virtual Memory: 266.61 MB used, 266.61 MB peak
+[2016.11.08-15.03.42:483][  0]LogMemory: Physical Memory: 3788.77 MB used, 32668.13 MB total
+[2016.11.08-15.03.42:483][  0]LogMemory: Virtual Memory: 673.73 MB used, 134217728.00 MB total
+[2016.11.08-15.03.42:505][  0]LogTextLocalizationManager: No translations for ('de-CH') exist, falling back to 'en' for localization and internationalization data.
+[2016.11.08-15.03.43:041][  0]LogD3D11RHI: D3D11 adapters:
+[2016.11.08-15.03.43:058][  0]LogD3D11RHI:    0. 'AMD Radeon (TM) R9 390 Series' (Feature Level 11_0)
+[2016.11.08-15.03.43:058][  0]LogD3D11RHI:       8169/0/16334 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2016.11.08-15.03.43:060][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.11.08-15.03.43:060][  0]LogD3D11RHI:       0/0/16334 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2016.11.08-15.03.43:060][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.11.08-15.03.43:063][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.11.08-15.03.43:063][  0]LogD3D11RHI:     GPU DeviceId: 0x67b0 (for the marketing name, search the web for "GPU Device Id")
+[2016.11.08-15.03.43:063][  0]LogWindows: EnumDisplayDevices:
+[2016.11.08-15.03.43:063][  0]LogWindows:    0. 'AMD Radeon (TM) R9 390 Series' (P:1 D:1)
+[2016.11.08-15.03.43:063][  0]LogWindows:    1. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
+[2016.11.08-15.03.43:063][  0]LogWindows:    2. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
+[2016.11.08-15.03.43:064][  0]LogWindows:    3. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
+[2016.11.08-15.03.43:064][  0]LogWindows:    4. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
+[2016.11.08-15.03.43:064][  0]LogWindows:    5. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
+[2016.11.08-15.03.43:064][  0]LogWindows: DebugString: FoundDriverCount:6 
+[2016.11.08-15.03.43:064][  0]LogD3D11RHI:     Adapter Name: AMD Radeon (TM) R9 390 Series
+[2016.11.08-15.03.43:064][  0]LogD3D11RHI:   Driver Version: Crimson 16.6 (internal:21.19.137.1, unified:21.19.137.1)
+[2016.11.08-15.03.43:064][  0]LogD3D11RHI:      Driver Date: 9-16-2016
+[2016.11.08-15.03.43:064][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.11.08-15.03.43:072][  0]LogD3D11RHI: Async texture creation enabled
+[2016.11.08-15.03.43:085][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2016.11.08-15.03.43:086][  0]LogShaderCompilers: Guid format shader working directory is 6 characters bigger than the processId version (D:/navVR/projects/unreal/MyVRTestController/Intermediate/Shaders/WorkingDirectory/3220/).
+[2016.11.08-15.03.43:086][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/I4DSVR~1/AppData/Local/Temp/UnrealShaderWorkingDir/95539CF9466D39082C85E7AFCC864B62/'.
+[2016.11.08-15.03.43:086][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.11.08-15.03.43:978][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.11.08-15.03.43:985][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.11.08-15.03.43:992][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.11.08-15.03.43:999][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.11.08-15.03.44:005][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.11.08-15.03.44:011][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.11.08-15.03.44:017][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.11.08-15.03.44:023][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.11.08-15.03.44:029][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.11.08-15.03.44:035][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.11.08-15.03.44:041][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.11.08-15.03.44:052][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.11.08-15.03.44:052][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.11.08-15.03.44:053][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.11.08-15.03.44:072][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.11.08-15.03.44:077][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.11.08-15.03.44:083][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2016.11.08-15.03.44:089][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.11.08-15.03.44:095][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.11.08-15.03.44:101][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.11.08-15.03.44:101][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.11.08-15.03.44:157][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.11.08-15.03.44:227][  0]LogDerivedDataCache: Loaded boot cache 0.07s 88MB C:/Users/i4Ds VR User/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
+[2016.11.08-15.03.44:227][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/i4Ds VR User/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc
+[2016.11.08-15.03.44:227][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/navVR/projects/unreal/MyVRTestController/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.11.08-15.03.44:227][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.11.08-15.03.44:227][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/navVR/projects/unreal/MyVRTestController/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.11.08-15.03.44:227][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.11.08-15.03.44:243][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.11.08-15.03.44:254][  0]LogDerivedDataCache: Using Local data cache path C:/Users/i4Ds VR User/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.11.08-15.03.44:437][  0]LogInit: Selected Device Profile: [Windows]
+[2016.11.08-15.03.44:440][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.11.08-15.03.44:522][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.11.08-15.03.44:522][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.11.08-15.03.44:522][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.11.08-15.03.44:576][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.11.08-15.03.44:871][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3106830, ProjectName: myvrtestcontroller, ProjectVersion: , EngineNetworkVersion: 1, GameNetworkVersion: 0, NetworkChecksum: 2195630713
+[2016.11.08-15.03.44:905][  0]LogAssetRegistry: FAssetRegistry took 0.0211 seconds to start up
+[2016.11.08-15.03.44:916][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.009298 seconds
+[2016.11.08-15.03.44:921][  0]LogUObjectArray: 29778 objects as part of root set at end of initial load.
+[2016.11.08-15.03.44:921][  0]LogUObjectAllocator: 6125448 out of 0 bytes used by permanent object pool.
+[2016.11.08-15.03.44:921][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.11.08-15.03.44:925][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.11.08-15.03.45:097][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.11.08-15.03.45:097][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.11.08-15.03.45:668][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2016.11.08-15.03.45:686][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.11.08-15.03.45:883][  0]SourceControl: Info Source control is disabled
+[2016.11.08-15.03.45:912][  0]SourceControl: Info Source control is disabled
+[2016.11.08-15.03.45:919][  0]SourceControl: Info Source control is disabled
+[2016.11.08-15.03.45:925][  0]SourceControl: Info Source control is disabled
+[2016.11.08-15.03.46:132][  0]LogEngine: Initializing Engine...
+[2016.11.08-15.03.47:032][  0]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-6D69F444
+[2016.11.08-15.03.47:161][  0]LogAIModule: Creating AISystem for world Untitled
+[2016.11.08-15.03.47:182][  0]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.11.08-15.03.47:195][  0]LogInit: FAudioDevice initialized.
+[2016.11.08-15.03.47:226][  0]LogDerivedDataCache: Saved boot cache 0.03s 62MB C:/Users/i4Ds VR User/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
+[2016.11.08-15.03.47:234][  0]LogInit: Texture streaming: Enabled
+[2016.11.08-15.03.47:252][  0]LogInit: Transaction tracking system initialized
+[2016.11.08-15.03.47:267][  0]BlueprintLog: New page: Editor Load
+[2016.11.08-15.03.47:317][  0]LocalizationService: Info Localization service is disabled
+[2016.11.08-15.03.47:376][  0]LogConsoleResponse:Display: 
+[2016.11.08-15.03.47:475][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2016.11.08-15.03.47:475][  0]LogCook:Display: Mobile HDR setting 0
+[2016.11.08-15.03.47:586][  0]LogFileCache: Scanning file cache for directory 'D:/navVR/projects/unreal/MyVRTestController/Content/' took 0.01s
+[2016.11.08-15.03.47:586][  0]SourceControl: Info Source control is disabled
+[2016.11.08-15.03.47:587][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.11.08-15.03.47:587][  0]LightingResults: New page: Lighting Build
+[2016.11.08-15.03.47:589][  0]MapCheck: New page: Map Check
+[2016.11.08-15.03.47:589][  0]LightingResults: New page: Lighting Build
+[2016.11.08-15.03.47:807][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2016.11.08-15.03.47:811][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.11.08-15.03.47:816][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.11.08-15.03.47:854][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 37.367ms to complete.
+[2016.11.08-15.03.47:854][  0]LogFileHelpers: Loading map 'Template_Default' took 0.267
+[2016.11.08-15.03.47:962][  0]LogCollectionManager: Loaded 0 collections in 0.001122 seconds
+[2016.11.08-15.03.48:000][  0]LogFileCache: Scanning file cache for directory 'D:/navVR/projects/unreal/MyVRTestController/Saved/Collections/' took 0.01s
+[2016.11.08-15.03.48:000][  0]LogFileCache: Scanning file cache for directory 'D:/navVR/projects/unreal/MyVRTestController/Content/Developers/i4DsVRUser/Collections/' took 0.01s
+[2016.11.08-15.03.48:000][  0]LogFileCache: Scanning file cache for directory 'D:/navVR/projects/unreal/MyVRTestController/Content/Collections/' took 0.01s
+[2016.11.08-15.03.48:000][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.11.08-15.03.48:008][  0]LogContentBrowser: Native class hierarchy populated in 0.0079 seconds. Added 2141 classes and 415 folders.
+[2016.11.08-15.03.48:011][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.11.08-15.03.48:011][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.11.08-15.03.48:011][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0004 seconds. Added 12 classes and 0 folders.
+[2016.11.08-15.03.48:014][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.11.08-15.03.48:049][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.11.08-15.03.48:053][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2016.11.08-15.03.48:094][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.11.08-15.03.48:098][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.11.08-15.03.48:123][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2016.11.08-15.03.48:123][  0]LogLoad: (Engine Initialization) Total time: 7.07 seconds
+[2016.11.08-15.03.48:123][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.04 seconds
+[2016.11.08-15.03.48:123][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.11.08-15.03.48:123][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.11.08-15.03.48:132][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.11.08-15.03.48:132][  0]LogOcInput: OculusInput pre-init called
+[2016.11.08-15.03.48:143][  0]LogOcInput: OculusInput is initialized. Init status 0. Runtime version: 1.9.0
+[2016.11.08-15.03.48:162][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.11.08-15.03.48:304][  0]LogRenderer: Reallocating scene render targets to support 1208x652 (Frame:2).
+[2016.11.08-15.03.48:369][  1]LogAssetRegistry: Asset discovery search completed in 3.4856 seconds
+[2016.11.08-15.03.48:369][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.11.08-15.03.48:369][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000017 seconds (updated 0 objects)
+[2016.11.08-15.05.39:835][331]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 112 classes and 0 folders.
+[2016.11.08-15.06.24:931][156]LogRenderer: Reallocating scene render targets to support 1208x1020 (Frame:16793).
+[2016.11.08-15.09.22:811][ 87]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.11.08-15.11.21:753][211]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 C:/Program Files (x86)/Epic Games/4.13/FeaturePacks/StarterContent.upack)
+[2016.11.08-15.11.21:768][211]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2016.11.08-15.11.21:774][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Architecture/Floor_400x400.uasset"
+[2016.11.08-15.11.21:779][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Architecture/Pillar_50x500.uasset"
+[2016.11.08-15.11.21:784][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
+[2016.11.08-15.11.21:789][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Architecture/Wall_400x200.uasset"
+[2016.11.08-15.11.21:794][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Architecture/Wall_400x300.uasset"
+[2016.11.08-15.11.21:799][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Architecture/Wall_400x400.uasset"
+[2016.11.08-15.11.21:803][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Architecture/Wall_500x500.uasset"
+[2016.11.08-15.11.21:808][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
+[2016.11.08-15.11.21:813][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
+[2016.11.08-15.11.21:817][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
+[2016.11.08-15.11.21:822][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
+[2016.11.08-15.11.21:827][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Audio/Collapse01.uasset"
+[2016.11.08-15.11.21:833][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Audio/Collapse02.uasset"
+[2016.11.08-15.11.21:835][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Audio/Collapse_Cue.uasset"
+[2016.11.08-15.11.21:839][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Audio/Explosion01.uasset"
+[2016.11.08-15.11.21:845][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Audio/Explosion02.uasset"
+[2016.11.08-15.11.21:848][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Audio/Explosion_Cue.uasset"
+[2016.11.08-15.11.21:853][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Audio/Fire01.uasset"
+[2016.11.08-15.11.21:856][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Audio/Fire01_Cue.uasset"
+[2016.11.08-15.11.21:861][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Audio/Fire_Sparks01.uasset"
+[2016.11.08-15.11.21:864][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
+[2016.11.08-15.11.21:869][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Audio/Light01.uasset"
+[2016.11.08-15.11.21:871][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Audio/Light01_Cue.uasset"
+[2016.11.08-15.11.21:876][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Audio/Light02.uasset"
+[2016.11.08-15.11.21:879][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Audio/Light02_Cue.uasset"
+[2016.11.08-15.11.21:885][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Audio/Smoke01.uasset"
+[2016.11.08-15.11.21:887][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Audio/Smoke01_Cue.uasset"
+[2016.11.08-15.11.21:891][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
+[2016.11.08-15.11.21:899][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Audio/Starter_Birds01.uasset"
+[2016.11.08-15.11.21:913][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Audio/Starter_Music01.uasset"
+[2016.11.08-15.11.21:916][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
+[2016.11.08-15.11.21:923][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Audio/Starter_Wind05.uasset"
+[2016.11.08-15.11.21:931][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Audio/Starter_Wind06.uasset"
+[2016.11.08-15.11.21:936][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Audio/Steam01.uasset"
+[2016.11.08-15.11.21:939][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Audio/Steam01_Cue.uasset"
+[2016.11.08-15.11.21:944][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
+[2016.11.08-15.11.21:949][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
+[2016.11.08-15.11.21:954][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
+[2016.11.08-15.11.21:959][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
+[2016.11.08-15.11.21:964][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
+[2016.11.08-15.11.21:969][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
+[2016.11.08-15.11.21:974][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
+[2016.11.08-15.11.21:979][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
+[2016.11.08-15.11.21:982][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
+[2016.11.08-15.11.21:986][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
+[2016.11.08-15.11.21:991][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
+[2016.11.08-15.11.21:996][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
+[2016.11.08-15.11.22:001][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
+[2016.11.08-15.11.22:007][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
+[2016.11.08-15.11.22:012][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
+[2016.11.08-15.11.22:014][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
+[2016.11.08-15.11.22:146][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
+[2016.11.08-15.11.22:152][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Maps/Advanced_Lighting.umap"
+[2016.11.08-15.11.22:158][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Maps/Minimal_Default.umap"
+[2016.11.08-15.11.22:181][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Maps/StarterMap.umap"
+[2016.11.08-15.11.22:186][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Materials/M_AssetPlatform.uasset"
+[2016.11.08-15.11.22:191][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Materials/M_Basic_Floor.uasset"
+[2016.11.08-15.11.22:196][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Materials/M_Basic_Wall.uasset"
+[2016.11.08-15.11.22:201][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
+[2016.11.08-15.11.22:205][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
+[2016.11.08-15.11.22:210][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
+[2016.11.08-15.11.22:215][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
+[2016.11.08-15.11.22:220][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
+[2016.11.08-15.11.22:225][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
+[2016.11.08-15.11.22:229][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
+[2016.11.08-15.11.22:234][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
+[2016.11.08-15.11.22:239][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
+[2016.11.08-15.11.22:244][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
+[2016.11.08-15.11.22:249][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
+[2016.11.08-15.11.22:253][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
+[2016.11.08-15.11.22:258][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
+[2016.11.08-15.11.22:263][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
+[2016.11.08-15.11.22:268][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Materials/M_Glass.uasset"
+[2016.11.08-15.11.22:272][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Materials/M_Ground_Grass.uasset"
+[2016.11.08-15.11.22:277][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
+[2016.11.08-15.11.22:282][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Materials/M_Ground_Moss.uasset"
+[2016.11.08-15.11.22:287][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
+[2016.11.08-15.11.22:291][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
+[2016.11.08-15.11.22:296][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
+[2016.11.08-15.11.22:301][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Materials/M_Metal_Copper.uasset"
+[2016.11.08-15.11.22:306][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Materials/M_Metal_Gold.uasset"
+[2016.11.08-15.11.22:311][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Materials/M_Metal_Rust.uasset"
+[2016.11.08-15.11.22:316][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Materials/M_Metal_Steel.uasset"
+[2016.11.08-15.11.22:321][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
+[2016.11.08-15.11.22:325][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
+[2016.11.08-15.11.22:330][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
+[2016.11.08-15.11.22:335][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Materials/M_Rock_Slate.uasset"
+[2016.11.08-15.11.22:340][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
+[2016.11.08-15.11.22:345][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
+[2016.11.08-15.11.22:350][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
+[2016.11.08-15.11.22:354][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Materials/M_Tech_Panel.uasset"
+[2016.11.08-15.11.22:359][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Materials/M_Water_Lake.uasset"
+[2016.11.08-15.11.22:364][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Materials/M_Water_Ocean.uasset"
+[2016.11.08-15.11.22:369][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
+[2016.11.08-15.11.22:375][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
+[2016.11.08-15.11.22:380][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Materials/M_Wood_Oak.uasset"
+[2016.11.08-15.11.22:385][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Materials/M_Wood_Pine.uasset"
+[2016.11.08-15.11.22:390][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
+[2016.11.08-15.11.22:395][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
+[2016.11.08-15.11.22:400][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Particles/P_Explosion.uasset"
+[2016.11.08-15.11.22:405][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Particles/P_Fire.uasset"
+[2016.11.08-15.11.22:410][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Particles/P_Smoke.uasset"
+[2016.11.08-15.11.22:415][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Particles/P_Sparks.uasset"
+[2016.11.08-15.11.22:420][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Particles/P_Steam_Lit.uasset"
+[2016.11.08-15.11.22:425][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Particles/Materials/M_Burst.uasset"
+[2016.11.08-15.11.22:430][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
+[2016.11.08-15.11.22:435][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
+[2016.11.08-15.11.22:439][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
+[2016.11.08-15.11.22:444][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
+[2016.11.08-15.11.22:449][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
+[2016.11.08-15.11.22:454][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
+[2016.11.08-15.11.22:459][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
+[2016.11.08-15.11.22:463][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
+[2016.11.08-15.11.22:468][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Particles/Materials/M_Spark.uasset"
+[2016.11.08-15.11.22:473][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Props/MaterialSphere.uasset"
+[2016.11.08-15.11.22:478][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Props/SM_Bush.uasset"
+[2016.11.08-15.11.22:483][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Props/SM_Chair.uasset"
+[2016.11.08-15.11.22:488][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Props/SM_CornerFrame.uasset"
+[2016.11.08-15.11.22:493][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Props/SM_Couch.uasset"
+[2016.11.08-15.11.22:498][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Props/SM_Door.uasset"
+[2016.11.08-15.11.22:503][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Props/SM_DoorFrame.uasset"
+[2016.11.08-15.11.22:508][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Props/SM_GlassWindow.uasset"
+[2016.11.08-15.11.22:513][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
+[2016.11.08-15.11.22:518][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
+[2016.11.08-15.11.22:525][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
+[2016.11.08-15.11.22:531][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Props/SM_PillarFrame.uasset"
+[2016.11.08-15.11.22:536][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Props/SM_PillarFrame300.uasset"
+[2016.11.08-15.11.22:541][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Props/SM_Rock.uasset"
+[2016.11.08-15.11.22:546][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Props/SM_Shelf.uasset"
+[2016.11.08-15.11.22:550][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Props/SM_Stairs.uasset"
+[2016.11.08-15.11.22:555][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Props/SM_Statue.uasset"
+[2016.11.08-15.11.22:561][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Props/SM_TableRound.uasset"
+[2016.11.08-15.11.22:565][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Props/SM_WindowFrame.uasset"
+[2016.11.08-15.11.22:570][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Props/Materials/M_Bush.uasset"
+[2016.11.08-15.11.22:575][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Props/Materials/M_Chair.uasset"
+[2016.11.08-15.11.22:579][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Props/Materials/M_Door.uasset"
+[2016.11.08-15.11.22:584][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Props/Materials/M_Frame.uasset"
+[2016.11.08-15.11.22:589][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Props/Materials/M_Lamp.uasset"
+[2016.11.08-15.11.22:594][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
+[2016.11.08-15.11.22:598][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
+[2016.11.08-15.11.22:603][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Props/Materials/M_Rock.uasset"
+[2016.11.08-15.11.22:608][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Props/Materials/M_Shelf.uasset"
+[2016.11.08-15.11.22:612][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Props/Materials/M_Statue.uasset"
+[2016.11.08-15.11.22:624][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
+[2016.11.08-15.11.22:629][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Props/Materials/M_TableRound.uasset"
+[2016.11.08-15.11.22:634][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Shapes/Shape_Cone.uasset"
+[2016.11.08-15.11.22:639][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Shapes/Shape_Cube.uasset"
+[2016.11.08-15.11.22:643][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
+[2016.11.08-15.11.22:648][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
+[2016.11.08-15.11.22:653][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Shapes/Shape_Pipe.uasset"
+[2016.11.08-15.11.22:658][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
+[2016.11.08-15.11.22:663][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
+[2016.11.08-15.11.22:668][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Shapes/Shape_Plane.uasset"
+[2016.11.08-15.11.22:673][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
+[2016.11.08-15.11.22:678][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Shapes/Shape_Sphere.uasset"
+[2016.11.08-15.11.22:684][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Shapes/Shape_Torus.uasset"
+[2016.11.08-15.11.22:688][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Shapes/Shape_Trim.uasset"
+[2016.11.08-15.11.22:693][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
+[2016.11.08-15.11.22:698][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
+[2016.11.08-15.11.22:703][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
+[2016.11.08-15.11.22:708][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Shapes/Shape_Tube.uasset"
+[2016.11.08-15.11.22:712][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
+[2016.11.08-15.11.22:717][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
+[2016.11.08-15.11.22:722][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
+[2016.11.08-15.11.22:736][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
+[2016.11.08-15.11.22:751][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
+[2016.11.08-15.11.22:764][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
+[2016.11.08-15.11.22:776][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
+[2016.11.08-15.11.22:792][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
+[2016.11.08-15.11.22:806][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
+[2016.11.08-15.11.22:824][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
+[2016.11.08-15.11.22:838][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
+[2016.11.08-15.11.22:858][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
+[2016.11.08-15.11.22:870][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
+[2016.11.08-15.11.22:885][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
+[2016.11.08-15.11.22:897][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
+[2016.11.08-15.11.22:917][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
+[2016.11.08-15.11.22:922][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Textures/T_Burst_M.uasset"
+[2016.11.08-15.11.22:928][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Textures/T_Bush_D.uasset"
+[2016.11.08-15.11.22:933][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Textures/T_Bush_N.uasset"
+[2016.11.08-15.11.22:938][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
+[2016.11.08-15.11.22:943][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
+[2016.11.08-15.11.22:949][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Textures/T_Chair_M.uasset"
+[2016.11.08-15.11.22:956][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Textures/T_Chair_N.uasset"
+[2016.11.08-15.11.22:961][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
+[2016.11.08-15.11.22:979][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
+[2016.11.08-15.11.22:985][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
+[2016.11.08-15.11.23:003][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
+[2016.11.08-15.11.23:011][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
+[2016.11.08-15.11.23:019][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
+[2016.11.08-15.11.23:032][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
+[2016.11.08-15.11.23:044][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
+[2016.11.08-15.11.23:058][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
+[2016.11.08-15.11.23:076][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
+[2016.11.08-15.11.23:090][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
+[2016.11.08-15.11.23:103][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
+[2016.11.08-15.11.23:120][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
+[2016.11.08-15.11.23:134][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
+[2016.11.08-15.11.23:145][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
+[2016.11.08-15.11.23:158][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
+[2016.11.08-15.11.23:170][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
+[2016.11.08-15.11.23:173][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
+[2016.11.08-15.11.23:182][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
+[2016.11.08-15.11.23:187][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Textures/T_Door_M.uasset"
+[2016.11.08-15.11.23:193][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Textures/T_Door_N.uasset"
+[2016.11.08-15.11.23:198][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
+[2016.11.08-15.11.23:206][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
+[2016.11.08-15.11.23:212][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
+[2016.11.08-15.11.23:217][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
+[2016.11.08-15.11.23:223][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Textures/T_Frame_M.uasset"
+[2016.11.08-15.11.23:229][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Textures/T_Frame_N.uasset"
+[2016.11.08-15.11.23:232][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Textures/T_Gradinet_01.uasset"
+[2016.11.08-15.11.23:250][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
+[2016.11.08-15.11.23:268][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
+[2016.11.08-15.11.23:285][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
+[2016.11.08-15.11.23:298][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
+[2016.11.08-15.11.23:318][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
+[2016.11.08-15.11.23:332][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
+[2016.11.08-15.11.23:337][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Textures/T_Lamp_M.uasset"
+[2016.11.08-15.11.23:345][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Textures/T_Lamp_N.uasset"
+[2016.11.08-15.11.23:362][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Textures/T_MacroVariation.uasset"
+[2016.11.08-15.11.23:378][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
+[2016.11.08-15.11.23:393][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
+[2016.11.08-15.11.23:407][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
+[2016.11.08-15.11.23:416][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
+[2016.11.08-15.11.23:434][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
+[2016.11.08-15.11.23:546][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
+[2016.11.08-15.11.23:556][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
+[2016.11.08-15.11.23:566][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
+[2016.11.08-15.11.23:580][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
+[2016.11.08-15.11.23:589][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Textures/T_RockMesh_M.uasset"
+[2016.11.08-15.11.23:600][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Textures/T_RockMesh_N.uasset"
+[2016.11.08-15.11.23:615][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
+[2016.11.08-15.11.23:629][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
+[2016.11.08-15.11.23:640][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
+[2016.11.08-15.11.23:656][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
+[2016.11.08-15.11.23:670][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
+[2016.11.08-15.11.23:689][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
+[2016.11.08-15.11.23:705][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
+[2016.11.08-15.11.23:720][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
+[2016.11.08-15.11.23:725][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Textures/T_Shelf_M.uasset"
+[2016.11.08-15.11.23:825][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Textures/T_Shelf_N.uasset"
+[2016.11.08-15.11.23:828][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
+[2016.11.08-15.11.23:836][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
+[2016.11.08-15.11.23:841][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
+[2016.11.08-15.11.23:846][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Textures/T_Spark_Core.uasset"
+[2016.11.08-15.11.23:851][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Textures/T_Statue_M.uasset"
+[2016.11.08-15.11.23:857][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Textures/T_Statue_N.uasset"
+[2016.11.08-15.11.23:862][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Textures/T_TableRound_M.uasset"
+[2016.11.08-15.11.23:869][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Textures/T_TableRound_N.uasset"
+[2016.11.08-15.11.23:874][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
+[2016.11.08-15.11.23:880][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
+[2016.11.08-15.11.23:885][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
+[2016.11.08-15.11.23:891][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
+[2016.11.08-15.11.23:897][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
+[2016.11.08-15.11.23:904][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
+[2016.11.08-15.11.23:911][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Textures/T_Water_M.uasset"
+[2016.11.08-15.11.24:283][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Textures/T_Water_N.uasset"
+[2016.11.08-15.11.24:296][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
+[2016.11.08-15.11.24:305][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
+[2016.11.08-15.11.24:313][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
+[2016.11.08-15.11.24:326][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
+[2016.11.08-15.11.24:338][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
+[2016.11.08-15.11.24:354][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
+[2016.11.08-15.11.24:363][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
+[2016.11.08-15.11.24:375][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
+[2016.11.08-15.11.24:384][211]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
+[2016.11.08-15.11.24:443][211]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Architecture/Floor_400x400" FILE="D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Architecture/Floor_400x400.uasset" SILENT=true
+[2016.11.08-15.11.24:461][211]LogSavePackage: Save=13.44ms
+[2016.11.08-15.11.24:461][211]LogSavePackage: Moving 'D:/navVR/projects/unreal/MyVRTestController/Saved/Floor_400x4007BD32BE84E0F1E022AF618B1FA6E1F2F.tmp' to 'D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Architecture/Floor_400x400.uasset'
+[2016.11.08-15.11.24:463][211]LogSavePackage:Display: Finished SavePackage D:/navVR/projects/unreal/MyVRTestController/Content/StarterContent/Architecture/Floor_400x400.uasset
+[2016.11.08-15.12.33:488][477]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VR_Pawn" FILE="D:/navVR/projects/unreal/MyVRTestController/Content/VR_Pawn.uasset" SILENT=true
+[2016.11.08-15.12.33:511][477]LogSavePackage: Save=17.83ms
+[2016.11.08-15.12.33:511][477]LogSavePackage: Moving 'D:/navVR/projects/unreal/MyVRTestController/Saved/VR_Pawn746DD27D40E6237519513294B9EDB2B5.tmp' to 'D:/navVR/projects/unreal/MyVRTestController/Content/VR_Pawn.uasset'
+[2016.11.08-15.12.33:512][477]LogSavePackage:Display: Finished SavePackage D:/navVR/projects/unreal/MyVRTestController/Content/VR_Pawn.uasset
+[2016.11.08-15.13.08:972][ 40]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VR_Pawn" FILE="D:/navVR/projects/unreal/MyVRTestController/Content/VR_Pawn.uasset" SILENT=true
+[2016.11.08-15.13.08:991][ 40]LogSavePackage: Save=17.50ms
+[2016.11.08-15.13.08:991][ 40]LogSavePackage: Moving 'D:/navVR/projects/unreal/MyVRTestController/Saved/VR_Pawn96B7D3524D8CF6F26DA858AA6503FB5E.tmp' to 'D:/navVR/projects/unreal/MyVRTestController/Content/VR_Pawn.uasset'
+[2016.11.08-15.13.08:992][ 40]LogSavePackage:Display: Finished SavePackage D:/navVR/projects/unreal/MyVRTestController/Content/VR_Pawn.uasset
+[2016.11.08-15.13.10:045][144]BlueprintLog: New page: Compile VR_Pawn
+[2016.11.08-15.13.10:586][174]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VR_Pawn" FILE="D:/navVR/projects/unreal/MyVRTestController/Content/VR_Pawn.uasset" SILENT=true
+[2016.11.08-15.13.10:605][174]LogSavePackage: Save=18.09ms
+[2016.11.08-15.13.10:605][174]LogSavePackage: Moving 'D:/navVR/projects/unreal/MyVRTestController/Saved/VR_PawnAC3471194564A801B7540F97BCFCDE88.tmp' to 'D:/navVR/projects/unreal/MyVRTestController/Content/VR_Pawn.uasset'
+[2016.11.08-15.13.10:606][174]LogSavePackage:Display: Finished SavePackage D:/navVR/projects/unreal/MyVRTestController/Content/VR_Pawn.uasset
+[2016.11.08-15.15.21:824][159]BlueprintLog: New page: Compile VR_Pawn
+[2016.11.08-15.15.22:515][201]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VR_Pawn" FILE="D:/navVR/projects/unreal/MyVRTestController/Content/VR_Pawn.uasset" SILENT=true
+[2016.11.08-15.15.22:535][201]LogSavePackage: Save=18.54ms
+[2016.11.08-15.15.22:535][201]LogSavePackage: Moving 'D:/navVR/projects/unreal/MyVRTestController/Saved/VR_PawnFC45EDFC438ED212883621A7608202C3.tmp' to 'D:/navVR/projects/unreal/MyVRTestController/Content/VR_Pawn.uasset'
+[2016.11.08-15.15.22:536][201]LogSavePackage:Display: Finished SavePackage D:/navVR/projects/unreal/MyVRTestController/Content/VR_Pawn.uasset
+[2016.11.08-15.18.18:438][570]BlueprintLog: New page: Compile BP_Sphere
+[2016.11.08-15.18.19:124][617]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_Sphere" FILE="D:/navVR/projects/unreal/MyVRTestController/Content/BP_Sphere.uasset" SILENT=true
+[2016.11.08-15.18.19:142][617]LogSavePackage: Save=16.73ms
+[2016.11.08-15.18.19:142][617]LogSavePackage: Moving 'D:/navVR/projects/unreal/MyVRTestController/Saved/BP_SphereACEA38F3420AB73F44B187AAA9DF9E11.tmp' to 'D:/navVR/projects/unreal/MyVRTestController/Content/BP_Sphere.uasset'
+[2016.11.08-15.18.19:143][617]LogSavePackage:Display: Finished SavePackage D:/navVR/projects/unreal/MyVRTestController/Content/BP_Sphere.uasset
+[2016.11.08-15.20.00:604][145]BlueprintLog: New page: Compile BP_Sphere
+[2016.11.08-15.20.01:306][198]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_Sphere" FILE="D:/navVR/projects/unreal/MyVRTestController/Content/BP_Sphere.uasset" SILENT=true
+[2016.11.08-15.20.01:327][198]LogSavePackage: Save=16.25ms
+[2016.11.08-15.20.01:327][198]LogSavePackage: Moving 'D:/navVR/projects/unreal/MyVRTestController/Saved/BP_SphereDBE75A0E419D7A422A3FD89D723F4A58.tmp' to 'D:/navVR/projects/unreal/MyVRTestController/Content/BP_Sphere.uasset'
+[2016.11.08-15.20.01:328][198]LogSavePackage:Display: Finished SavePackage D:/navVR/projects/unreal/MyVRTestController/Content/BP_Sphere.uasset
+[2016.11.08-15.23.18:536][518]LogEditorTransaction: Undo Rename Component Variable
+[2016.11.08-15.23.19:204][572]LogEditorTransaction: Undo Make New Scene Root
+[2016.11.08-15.23.24:103][136]LogEditorTransaction: Undo Make New Scene Root
+[2016.11.08-15.26.43:198][854]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.018
+[2016.11.08-15.26.43:200][854]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/VR_Pawn] ([1] browsable assets)...
+[2016.11.08-15.26.43:213][854]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/VR_Pawn.VR_Pawn]
+[2016.11.08-15.26.43:213][854]OBJ SavePackage: Finished generating thumbnails for package [/Game/VR_Pawn]
+[2016.11.08-15.26.43:213][854]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VR_Pawn" FILE="D:/navVR/projects/unreal/MyVRTestController/Saved/Autosaves/Game/VR_Pawn_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2016.11.08-15.26.43:235][854]LogSavePackage: Save=17.27ms
+[2016.11.08-15.26.43:235][854]LogSavePackage: Moving 'D:/navVR/projects/unreal/MyVRTestController/Saved/VR_Pawn_Auto161B6BA2148857B31FDACC7B6E0682D67.tmp' to 'D:/navVR/projects/unreal/MyVRTestController/Saved/Autosaves/Game/VR_Pawn_Auto1.uasset'
+[2016.11.08-15.26.43:235][854]LogSavePackage:Display: Finished SavePackage D:/navVR/projects/unreal/MyVRTestController/Saved/Autosaves/Game/VR_Pawn_Auto1.uasset
+[2016.11.08-15.26.43:235][854]LogFileHelpers: Auto-saving content packages took 0.036
+[2016.11.08-15.29.05:123][384]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.11.08-15.33.32:555][572]BlueprintLog: New page: Compile VR_Pawn
+[2016.11.08-15.33.33:627][659]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VR_Pawn" FILE="D:/navVR/projects/unreal/MyVRTestController/Content/VR_Pawn.uasset" SILENT=true
+[2016.11.08-15.33.33:657][659]LogSavePackage: Save=24.75ms
+[2016.11.08-15.33.33:657][659]LogSavePackage: Moving 'D:/navVR/projects/unreal/MyVRTestController/Saved/VR_Pawn6994CD4846F2C0076365B697253B8BFB.tmp' to 'D:/navVR/projects/unreal/MyVRTestController/Content/VR_Pawn.uasset'
+[2016.11.08-15.33.33:658][659]LogSavePackage:Display: Finished SavePackage D:/navVR/projects/unreal/MyVRTestController/Content/VR_Pawn.uasset
+[2016.11.08-15.33.49:176][978]LogAIModule: Creating AISystem for world VRTestFromBlank
+[2016.11.08-15.33.49:192][978]Cmd: MAP LOAD FILE="D:/navVR/projects/unreal/MyVRTestController/Content/VRTestFromBlank.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.11.08-15.33.49:192][978]LightingResults: New page: Lighting Build
+[2016.11.08-15.33.49:193][978]LoadErrors: New page: Loading map: VRTestFromBlank.umap
+[2016.11.08-15.33.49:193][978]MapCheck: New page: Map Check
+[2016.11.08-15.33.49:193][978]LightingResults: New page: Lighting Build
+[2016.11.08-15.33.49:253][978]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.11.08-15.33.49:268][978]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.11.08-15.33.49:310][978]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 41.958ms to complete.
+[2016.11.08-15.33.49:310][978]LogFileHelpers: Loading map 'VRTestFromBlank' took 0.120
+[2016.11.08-15.33.50:999][154]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VRTestFromBlank" FILE="D:/navVR/projects/unreal/MyVRTestController/Content/VRTestFromBlank.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.11.08-15.33.51:035][154]LogSavePackage: Save=21.40ms
+[2016.11.08-15.33.51:035][154]LogSavePackage: Moving 'D:/navVR/projects/unreal/MyVRTestController/Saved/VRTestFromBlankBCDAC117450623D664B34DA5D22FDD6B.tmp' to 'D:/navVR/projects/unreal/MyVRTestController/Content/VRTestFromBlank.umap'
+[2016.11.08-15.33.51:036][154]LogSavePackage:Display: Finished SavePackage D:/navVR/projects/unreal/MyVRTestController/Content/VRTestFromBlank.umap
+[2016.11.08-15.34.56:623][502]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.11.08-15.35.00:649][979]LogEditorViewport: Clicking on Actor (LMB): VR_Pawn_C (VR_Pawn)
+[2016.11.08-15.35.19:653][234]LogEditorActor: Deleted Actor: VR_Pawn_C
+[2016.11.08-15.35.19:669][234]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2016.11.08-15.35.20:713][359]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.11.08-15.35.22:695][594]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VRTestFromBlank" FILE="D:/navVR/projects/unreal/MyVRTestController/Content/VRTestFromBlank.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.11.08-15.35.22:729][594]LogSavePackage: Save=19.55ms
+[2016.11.08-15.35.22:729][594]LogSavePackage: Moving 'D:/navVR/projects/unreal/MyVRTestController/Saved/VRTestFromBlankF5D3A90343C5E94C99E834841EA58AE5.tmp' to 'D:/navVR/projects/unreal/MyVRTestController/Content/VRTestFromBlank.umap'
+[2016.11.08-15.35.22:730][594]LogSavePackage:Display: Finished SavePackage D:/navVR/projects/unreal/MyVRTestController/Content/VRTestFromBlank.umap
+[2016.11.08-15.35.27:331][142]Cmd: MAP LOAD FILE="D:/navVR/projects/unreal/MyVRTestController/Content/VRTestFromBlank.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.11.08-15.35.27:331][142]LightingResults: New page: Lighting Build
+[2016.11.08-15.35.27:332][142]LoadErrors: New page: Loading map: VRTestFromBlank.umap
+[2016.11.08-15.35.27:332][142]MapCheck: New page: Map Check
+[2016.11.08-15.35.27:332][142]LightingResults: New page: Lighting Build
+[2016.11.08-15.35.27:351][142]LogAIModule: Creating AISystem for world VRTestFromBlank
+[2016.11.08-15.35.27:396][142]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.11.08-15.35.27:412][142]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.11.08-15.35.27:455][142]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 41.869ms to complete.
+[2016.11.08-15.35.27:455][142]LogFileHelpers: Loading map 'VRTestFromBlank' took 0.125
+[2016.11.08-15.35.28:654][266]Cmd: MAP LOAD FILE="D:/navVR/projects/unreal/MyVRTestController/Content/VRTestFromBlank.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.11.08-15.35.28:654][266]LightingResults: New page: Lighting Build
+[2016.11.08-15.35.28:655][266]LoadErrors: New page: Loading map: VRTestFromBlank.umap
+[2016.11.08-15.35.28:655][266]MapCheck: New page: Map Check
+[2016.11.08-15.35.28:655][266]LightingResults: New page: Lighting Build
+[2016.11.08-15.35.28:672][266]LogAIModule: Creating AISystem for world VRTestFromBlank
+[2016.11.08-15.35.28:727][266]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.11.08-15.35.28:744][266]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.11.08-15.35.28:786][266]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 41.484ms to complete.
+[2016.11.08-15.35.28:786][266]LogFileHelpers: Loading map 'VRTestFromBlank' took 0.133
+[2016.11.08-15.35.29:992][386]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2016.11.08-15.35.58:542][754]Cmd: QUIT_EDITOR
+[2016.11.08-15.35.58:565][754]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.11.08-15.35.58:584][754]LogExit: Preparing to exit.
+[2016.11.08-15.35.59:104][754]LogExit: Editor shut down
+[2016.11.08-15.35.59:104][754]LogExit: Transaction tracking system shut down
+[2016.11.08-15.35.59:243][754]LogObj: Freed 0b from 0 cluster array pools.
+[2016.11.08-15.35.59:243][754]LogExit: Object subsystem successfully closed.
+[2016.11.08-15.35.59:254][754]LogD3D11RHI: Shutdown
+[2016.11.08-15.35.59:254][754]LogD3D11RHI: CleanupD3DDevice
+[2016.11.08-15.35.59:380][754]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.11.08-15.35.59:391][754]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (237)
+[2016.11.08-15.35.59:391][754]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (236)
+[2016.11.08-15.35.59:391][754]LogModuleManager: Shutting down and abandoning module BlueprintGraph (235)
+[2016.11.08-15.35.59:391][754]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (234)
+[2016.11.08-15.35.59:391][754]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (233)
+[2016.11.08-15.35.59:391][754]LogModuleManager: Shutting down and abandoning module CrashTracker (232)
+[2016.11.08-15.35.59:391][754]LogModuleManager: Shutting down and abandoning module SceneOutliner (231)
+[2016.11.08-15.35.59:391][754]LogModuleManager: Shutting down and abandoning module WidgetCarousel (230)
+[2016.11.08-15.35.59:391][754]LogModuleManager: Shutting down and abandoning module AddContentDialog (229)
+[2016.11.08-15.35.59:391][754]LogDirectoryWatcher: A directory notification for 'C:/Program Files (x86)/Epic Games/4.13/FeaturePacks/' was aborted.
+[2016.11.08-15.35.59:392][754]LogModuleManager: Shutting down and abandoning module GameplayTags (228)
+[2016.11.08-15.35.59:392][754]LogModuleManager: Shutting down and abandoning module EditorWidgets (227)
+[2016.11.08-15.35.59:392][754]LogModuleManager: Shutting down and abandoning module CollectionManager (226)
+[2016.11.08-15.35.59:392][754]LogDirectoryWatcher: A directory notification for 'D:/navVR/projects/unreal/MyVRTestController/Content/Collections/' was aborted.
+[2016.11.08-15.35.59:392][754]LogDirectoryWatcher: A directory notification for 'D:/navVR/projects/unreal/MyVRTestController/Content/Developers/i4DsVRUser/Collections/' was aborted.
+[2016.11.08-15.35.59:392][754]LogDirectoryWatcher: A directory notification for 'D:/navVR/projects/unreal/MyVRTestController/Saved/Collections/' was aborted.
+[2016.11.08-15.35.59:393][754]LogModuleManager: Shutting down and abandoning module StatsViewer (225)
+[2016.11.08-15.35.59:393][754]LogModuleManager: Shutting down and abandoning module FoliageEdit (224)
+[2016.11.08-15.35.59:393][754]LogModuleManager: Shutting down and abandoning module LandscapeEditor (223)
+[2016.11.08-15.35.59:393][754]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (222)
+[2016.11.08-15.35.59:393][754]LogModuleManager: Shutting down and abandoning module ActorPickerMode (221)
+[2016.11.08-15.35.59:393][754]LogModuleManager: Shutting down and abandoning module GeometryMode (220)
+[2016.11.08-15.35.59:393][754]LogModuleManager: Shutting down and abandoning module TextureAlignMode (219)
+[2016.11.08-15.35.59:393][754]LogModuleManager: Shutting down and abandoning module BspMode (218)
+[2016.11.08-15.35.59:393][754]LogModuleManager: Shutting down and abandoning module HardwareSurvey (217)
+[2016.11.08-15.35.59:393][754]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (216)
+[2016.11.08-15.35.59:393][754]LogModuleManager: Shutting down and abandoning module SequenceRecorder (215)
+[2016.11.08-15.35.59:393][754]LogModuleManager: Shutting down and abandoning module AutomationWorker (214)
+[2016.11.08-15.35.59:393][754]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (213)
+[2016.11.08-15.35.59:393][754]LogModuleManager: Shutting down and abandoning module PlacementMode (212)
+[2016.11.08-15.35.59:393][754]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (211)
+[2016.11.08-15.35.59:393][754]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (210)
+[2016.11.08-15.35.59:393][754]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (209)
+[2016.11.08-15.35.59:393][754]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (208)
+[2016.11.08-15.35.59:393][754]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (207)
+[2016.11.08-15.35.59:393][754]LogModuleManager: Shutting down and abandoning module Media (206)
+[2016.11.08-15.35.59:393][754]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (205)
+[2016.11.08-15.35.59:393][754]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (204)
+[2016.11.08-15.35.59:393][754]LogModuleManager: Shutting down and abandoning module CharacterAI (203)
+[2016.11.08-15.35.59:393][754]LogModuleManager: Shutting down and abandoning module SmartSnapping (202)
+[2016.11.08-15.35.59:393][754]LogModuleManager: Shutting down and abandoning module SessionServices (201)
+[2016.11.08-15.35.59:393][754]LogModuleManager: Shutting down and abandoning module ViewportSnapping (200)
+[2016.11.08-15.35.59:393][754]LogModuleManager: Shutting down and abandoning module ViewportInteraction (199)
+[2016.11.08-15.35.59:393][754]LogModuleManager: Shutting down and abandoning module LogVisualizer (198)
+[2016.11.08-15.35.59:393][754]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (197)
+[2016.11.08-15.35.59:393][754]LogModuleManager: Shutting down and abandoning module IntroTutorials (196)
+[2016.11.08-15.35.59:393][754]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (195)
+[2016.11.08-15.35.59:393][754]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (194)
+[2016.11.08-15.35.59:393][754]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (193)
+[2016.11.08-15.35.59:393][754]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (192)
+[2016.11.08-15.35.59:859][754]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (191)
+[2016.11.08-15.35.59:859][754]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (190)
+[2016.11.08-15.35.59:859][754]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (189)
+[2016.11.08-15.35.59:859][754]LogModuleManager: Shutting down and abandoning module NiagaraEditor (188)
+[2016.11.08-15.35.59:859][754]LogModuleManager: Shutting down and abandoning module MergeActors (187)
+[2016.11.08-15.35.59:859][754]LogModuleManager: Shutting down and abandoning module SizeMap (186)
+[2016.11.08-15.35.59:859][754]LogModuleManager: Shutting down and abandoning module TreeMap (185)
+[2016.11.08-15.35.59:859][754]LogModuleManager: Shutting down and abandoning module ReferenceViewer (184)
+[2016.11.08-15.35.59:859][754]LogModuleManager: Shutting down and abandoning module LocalizationService (183)
+[2016.11.08-15.35.59:859][754]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (182)
+[2016.11.08-15.35.59:859][754]LogModuleManager: Shutting down and abandoning module HardwareTargeting (181)
+[2016.11.08-15.35.59:859][754]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (180)
+[2016.11.08-15.35.59:859][754]LogModuleManager: Shutting down and abandoning module UndoHistory (179)
+[2016.11.08-15.35.59:859][754]LogModuleManager: Shutting down and abandoning module UserFeedback (178)
+[2016.11.08-15.35.59:859][754]LogModuleManager: Shutting down and abandoning module XmlParser (177)
+[2016.11.08-15.35.59:859][754]LogModuleManager: Shutting down and abandoning module Blutility (176)
+[2016.11.08-15.35.59:859][754]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (175)
+[2016.11.08-15.35.59:859][754]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (174)
+[2016.11.08-15.35.59:859][754]LogModuleManager: Shutting down and abandoning module InputBindingEditor (173)
+[2016.11.08-15.35.59:859][754]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (172)
+[2016.11.08-15.35.59:859][754]LogModuleManager: Shutting down and abandoning module SettingsEditor (171)
+[2016.11.08-15.35.59:859][754]LogModuleManager: Shutting down and abandoning module ProjectLauncher (170)
+[2016.11.08-15.35.59:859][754]LogModuleManager: Shutting down and abandoning module SessionFrontend (169)
+[2016.11.08-15.35.59:859][754]LogModuleManager: Shutting down and abandoning module ProfilerClient (168)
+[2016.11.08-15.35.59:859][754]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (167)
+[2016.11.08-15.35.59:859][754]LogModuleManager: Shutting down and abandoning module DeviceManager (166)
+[2016.11.08-15.35.59:902][754]LogModuleManager: Shutting down and abandoning module AutomationController (165)
+[2016.11.08-15.35.59:902][754]LogModuleManager: Shutting down and abandoning module AutomationWindow (164)
+[2016.11.08-15.35.59:902][754]LogModuleManager: Shutting down and abandoning module Layers (163)
+[2016.11.08-15.35.59:902][754]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (162)
+[2016.11.08-15.35.59:902][754]LogModuleManager: Shutting down and abandoning module DetailCustomizations (161)
+[2016.11.08-15.35.59:902][754]LogModuleManager: Shutting down and abandoning module PackagesDialog (160)
+[2016.11.08-15.35.59:902][754]LogModuleManager: Shutting down and abandoning module AnimGraph (159)
+[2016.11.08-15.35.59:902][754]LogModuleManager: Shutting down and abandoning module Persona (158)
+[2016.11.08-15.35.59:902][754]LogModuleManager: Shutting down and abandoning module Kismet (157)
+[2016.11.08-15.35.59:906][754]LogModuleManager: Shutting down and abandoning module GraphEditor (156)
+[2016.11.08-15.35.59:906][754]LogModuleManager: Shutting down and abandoning module ClassViewer (155)
+[2016.11.08-15.35.59:908][754]LogModuleManager: Shutting down and abandoning module Toolbox (154)
+[2016.11.08-15.35.59:908][754]LogModuleManager: Shutting down and abandoning module ModuleUI (153)
+[2016.11.08-15.35.59:908][754]LogModuleManager: Shutting down and abandoning module MovieSceneTools (152)
+[2016.11.08-15.35.59:908][754]LogModuleManager: Shutting down and abandoning module OutputLog (151)
+[2016.11.08-15.35.59:908][754]LogModuleManager: Shutting down and abandoning module GammaUI (150)
+[2016.11.08-15.35.59:908][754]LogModuleManager: Shutting down and abandoning module Documentation (149)
+[2016.11.08-15.35.59:908][754]LogModuleManager: Shutting down and abandoning module Niagara (148)
+[2016.11.08-15.35.59:908][754]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (147)
+[2016.11.08-15.35.59:908][754]LogModuleManager: Shutting down and abandoning module AnalyticsET (146)
+[2016.11.08-15.35.59:908][754]LogModuleManager: Shutting down and abandoning module PortalServices (145)
+[2016.11.08-15.35.59:908][754]LogModuleManager: Shutting down and abandoning module PortalRpc (144)
+[2016.11.08-15.35.59:908][754]LogModuleManager: Shutting down and abandoning module MessagingRpc (143)
+[2016.11.08-15.35.59:908][754]LogModuleManager: Shutting down and abandoning module GameplayDebugger (142)
+[2016.11.08-15.35.59:908][754]LogModuleManager: Shutting down and abandoning module AITestSuite (141)
+[2016.11.08-15.35.59:908][754]LogModuleManager: Shutting down and abandoning module AIModule (140)
+[2016.11.08-15.35.59:908][754]LogModuleManager: Shutting down and abandoning module ProfilerService (139)
+[2016.11.08-15.36.00:024][754]LogModuleManager: Shutting down and abandoning module TaskGraph (138)
+[2016.11.08-15.36.00:024][754]LogModuleManager: Shutting down and abandoning module SlateRemote (137)
+[2016.11.08-15.36.00:024][754]LogModuleManager: Shutting down and abandoning module SteamVRController (136)
+[2016.11.08-15.36.00:024][754]LogModuleManager: Shutting down and abandoning module SteamVR (135)
+[2016.11.08-15.36.00:024][754]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (134)
+[2016.11.08-15.36.00:024][754]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (133)
+[2016.11.08-15.36.00:024][754]LogModuleManager: Shutting down and abandoning module OculusLibrary (132)
+[2016.11.08-15.36.00:024][754]LogModuleManager: Shutting down and abandoning module OculusInput (131)
+[2016.11.08-15.36.00:024][754]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (130)
+[2016.11.08-15.36.00:024][754]LogModuleManager: Shutting down and abandoning module CableComponent (129)
+[2016.11.08-15.36.00:024][754]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (128)
+[2016.11.08-15.36.00:024][754]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (126)
+[2016.11.08-15.36.00:024][754]LogModuleManager: Shutting down and abandoning module HTML5Networking (125)
+[2016.11.08-15.36.00:024][754]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (124)
+[2016.11.08-15.36.00:024][754]LogModuleManager: Shutting down and abandoning module GeometryCache (123)
+[2016.11.08-15.36.00:024][754]LogModuleManager: Shutting down and abandoning module AlembicLibrary (122)
+[2016.11.08-15.36.00:024][754]LogModuleManager: Shutting down and abandoning module AlembicImporter (121)
+[2016.11.08-15.36.00:024][754]LogModuleManager: Shutting down and abandoning module SuperSearch (120)
+[2016.11.08-15.36.00:024][754]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (119)
+[2016.11.08-15.36.00:024][754]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (118)
+[2016.11.08-15.36.00:024][754]LogModuleManager: Shutting down and abandoning module PluginBrowser (117)
+[2016.11.08-15.36.00:024][754]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (116)
+[2016.11.08-15.36.00:024][754]LogModuleManager: Shutting down and abandoning module EpicSurvey (115)
+[2016.11.08-15.36.00:024][754]LogModuleManager: Shutting down and abandoning module DesktopPlatform (114)
+[2016.11.08-15.36.00:024][754]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (113)
+[2016.11.08-15.36.00:024][754]LogModuleManager: Shutting down and abandoning module UObjectPlugin (112)
+[2016.11.08-15.36.00:024][754]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (111)
+[2016.11.08-15.36.00:024][754]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (110)
+[2016.11.08-15.36.00:024][754]LogModuleManager: Shutting down and abandoning module SourceControl (109)
+[2016.11.08-15.36.00:024][754]LogModuleManager: Shutting down and abandoning module GitSourceControl (108)
+[2016.11.08-15.36.00:024][754]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (107)
+[2016.11.08-15.36.00:024][754]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (106)
+[2016.11.08-15.36.00:024][754]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (105)
+[2016.11.08-15.36.00:024][754]LogModuleManager: Shutting down and abandoning module MeshPaint (104)
+[2016.11.08-15.36.00:024][754]LogModuleManager: Shutting down and abandoning module FbxAutomationBuilderModule (103)
+[2016.11.08-15.36.00:024][754]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (102)
+[2016.11.08-15.36.00:024][754]LogModuleManager: Shutting down and abandoning module HotReload (101)
+[2016.11.08-15.36.00:025][754]LogModuleManager: Shutting down and abandoning module MainFrame (100)
+[2016.11.08-15.36.00:025][754]LogModuleManager: Shutting down and abandoning module LevelEditor (99)
+[2016.11.08-15.36.00:025][754]LogModuleManager: Shutting down and abandoning module ContentBrowser (98)
+[2016.11.08-15.36.00:026][754]LogModuleManager: Shutting down and abandoning module Paper2DEditor (97)
+[2016.11.08-15.36.00:026][754]LogModuleManager: Shutting down and abandoning module UdpMessaging (96)
+[2016.11.08-15.36.00:126][754]LogModuleManager: Shutting down and abandoning module TcpMessaging (95)
+[2016.11.08-15.36.00:226][754]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (94)
+[2016.11.08-15.36.00:226][754]LogModuleManager: Shutting down and abandoning module Paper2D (93)
+[2016.11.08-15.36.00:226][754]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (92)
+[2016.11.08-15.36.00:226][754]LogModuleManager: Shutting down and abandoning module WmfMedia (91)
+[2016.11.08-15.36.00:226][754]LogModuleManager: Shutting down and abandoning module MediaAssets (90)
+[2016.11.08-15.36.00:226][754]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (89)
+[2016.11.08-15.36.00:226][754]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (88)
+[2016.11.08-15.36.00:227][754]LogModuleManager: Shutting down and abandoning module VREditor (87)
+[2016.11.08-15.36.00:227][754]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (86)
+[2016.11.08-15.36.00:227][754]LogModuleManager: Shutting down and abandoning module PropertyEditor (85)
+[2016.11.08-15.36.00:227][754]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (84)
+[2016.11.08-15.36.00:227][754]LogModuleManager: Shutting down and abandoning module FunctionalTesting (83)
+[2016.11.08-15.36.00:227][754]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (82)
+[2016.11.08-15.36.00:227][754]LogModuleManager: Shutting down and abandoning module Sequencer (81)
+[2016.11.08-15.36.00:227][754]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (80)
+[2016.11.08-15.36.00:227][754]LogModuleManager: Shutting down and abandoning module MessageLog (79)
+[2016.11.08-15.36.00:227][754]LogModuleManager: Shutting down and abandoning module AssetTools (78)
+[2016.11.08-15.36.00:227][754]LogModuleManager: Shutting down and abandoning module UMGEditor (77)
+[2016.11.08-15.36.00:227][754]LogModuleManager: Shutting down and abandoning module UMG (76)
+[2016.11.08-15.36.00:227][754]LogModuleManager: Shutting down and abandoning module SlateReflector (75)
+[2016.11.08-15.36.00:227][754]LogModuleManager: Shutting down and abandoning module Slate (74)
+[2016.11.08-15.36.00:227][754]LogModuleManager: Shutting down and abandoning module EditorStyle (73)
+[2016.11.08-15.36.00:229][754]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (72)
+[2016.11.08-15.36.00:229][754]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (71)
+[2016.11.08-15.36.00:229][754]LogModuleManager: Shutting down and abandoning module XAudio2 (70)
+[2016.11.08-15.36.00:229][754]LogModuleManager: Shutting down and abandoning module Networking (68)
+[2016.11.08-15.36.00:229][754]LogModuleManager: Shutting down and abandoning module Core (67)
+[2016.11.08-15.36.00:229][754]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (66)
+[2016.11.08-15.36.00:229][754]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2016.11.08-15.36.00:229][754]LogDirectoryWatcher: A directory notification for 'D:/navVR/projects/unreal/MyVRTestController/Content/' was aborted.
+[2016.11.08-15.36.00:229][754]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2016.11.08-15.36.00:229][754]LogModuleManager: Shutting down and abandoning module AssetRegistry (65)
+[2016.11.08-15.36.00:305][754]LogModuleManager: Shutting down and abandoning module KismetCompiler (64)
+[2016.11.08-15.36.00:305][754]LogModuleManager: Shutting down and abandoning module PhysXFormats (63)
+[2016.11.08-15.36.00:305][754]LogModuleManager: Shutting down and abandoning module MeshUtilities (62)
+[2016.11.08-15.36.00:305][754]LogModuleManager: Shutting down and abandoning module DerivedDataCache (61)
+[2016.11.08-15.36.00:404][754]LogDerivedDataCache: Shutdown
+[2016.11.08-15.36.00:404][754]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (60)
+[2016.11.08-15.36.00:404][754]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (59)
+[2016.11.08-15.36.00:404][754]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (58)
+[2016.11.08-15.36.00:404][754]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (57)
+[2016.11.08-15.36.00:404][754]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (56)
+[2016.11.08-15.36.00:404][754]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (55)
+[2016.11.08-15.36.00:404][754]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (54)
+[2016.11.08-15.36.00:404][754]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (53)
+[2016.11.08-15.36.00:404][754]LogModuleManager: Shutting down and abandoning module ImageWrapper (52)
+[2016.11.08-15.36.00:404][754]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (51)
+[2016.11.08-15.36.00:404][754]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (50)
+[2016.11.08-15.36.00:404][754]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (49)
+[2016.11.08-15.36.00:404][754]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (48)
+[2016.11.08-15.36.00:404][754]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (47)
+[2016.11.08-15.36.00:404][754]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (46)
+[2016.11.08-15.36.00:404][754]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (45)
+[2016.11.08-15.36.00:404][754]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (44)
+[2016.11.08-15.36.00:404][754]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (43)
+[2016.11.08-15.36.00:404][754]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (42)
+[2016.11.08-15.36.00:404][754]LogModuleManager: Shutting down and abandoning module Messaging (41)
+[2016.11.08-15.36.00:404][754]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (40)
+[2016.11.08-15.36.00:404][754]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (39)
+[2016.11.08-15.36.00:404][754]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (38)
+[2016.11.08-15.36.00:404][754]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (37)
+[2016.11.08-15.36.00:404][754]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (36)
+[2016.11.08-15.36.00:404][754]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (35)
+[2016.11.08-15.36.00:404][754]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (34)
+[2016.11.08-15.36.00:404][754]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (33)
+[2016.11.08-15.36.00:404][754]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (32)
+[2016.11.08-15.36.00:404][754]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (31)
+[2016.11.08-15.36.00:404][754]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (30)
+[2016.11.08-15.36.00:404][754]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (29)
+[2016.11.08-15.36.00:404][754]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (28)
+[2016.11.08-15.36.00:405][754]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (27)
+[2016.11.08-15.36.00:405][754]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (26)
+[2016.11.08-15.36.00:405][754]LogModuleManager: Shutting down and abandoning module TargetPlatform (25)
+[2016.11.08-15.36.00:405][754]LogModuleManager: Shutting down and abandoning module InputCore (24)
+[2016.11.08-15.36.00:405][754]LogModuleManager: Shutting down and abandoning module Settings (23)
+[2016.11.08-15.36.00:405][754]LogModuleManager: Shutting down and abandoning module OculusRift (22)
+[2016.11.08-15.36.00:405][754]LogHMD: Oculus shutdown.
+[2016.11.08-15.36.00:405][754]LogModuleManager: Shutting down and abandoning module GearVR (21)
+[2016.11.08-15.36.00:405][754]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (20)
+[2016.11.08-15.36.00:405][754]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (19)
+[2016.11.08-15.36.00:405][754]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (17)
+[2016.11.08-15.36.00:405][754]LogOnline:Display: Unloading online subsystem: NULL
+[2016.11.08-15.36.00:405][754]LogModuleManager: Shutting down and abandoning module HTTP (16)
+[2016.11.08-15.36.00:405][754]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2016.11.08-15.36.00:405][754]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B43061CFA-4826-72FB-344D-67A740EE4F27%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.13.2-3172292%2B%2B%2BUE4%2BRelease-4.13&UserID=6a1faa52481899995b584aa119ffd1e5%7C8ec87fca5bae40b088005e1ea2986093%7Ccd137be8-d013-42af-9546-fdab74cba7dc&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2016.11.08-15.36.00:411][754]LogModuleManager: Shutting down and abandoning module XMPP (15)
+[2016.11.08-15.36.00:411][754]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.11.08-15.36.00:411][754]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.11.08-15.36.00:411][754]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.11.08-15.36.00:411][754]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.11.08-15.36.00:412][754]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.11.08-15.36.00:412][754]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.11.08-15.36.00:412][754]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.11.08-15.36.00:412][754]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.11.08-15.36.00:412][754]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.11.08-15.36.00:412][754]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.11.08-15.36.00:412][754]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.11.08-15.36.00:412][754]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.11.08-15.36.00:412][754]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.11.08-15.36.00:412][754]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.11.08-15.36.00:414][754]LogExit: Exiting.
+[2016.11.08-15.36.00:423][754]Log file closed, 11/08/16 16:36:00
