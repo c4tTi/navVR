@@ -1,0 +1,785 @@
+﻿Log file open, 11/30/16 07:16:19
+LogInit:Display: Running engine for game: VRScaling
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1046177109) SRandInit(-1046177109).
+LogTaskGraph: Started task graph with 5 named threads and 10 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.098488
+LogPluginManager: Loaded Plugin Paper2D, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
+LogPluginManager: Loaded Plugin LightPropagationVolume, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
+LogPluginManager: Loaded Plugin BlankPlugin, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
+LogPluginManager: Loaded Plugin CodeLiteSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/CodeLiteSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin GitSourceControl, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/GitSourceControl/GitSourceControl.uplugin
+LogPluginManager: Loaded Plugin KDevelopSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/KDevelopSourceCodeAccess/KDevelopSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin NullSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/NullSourceCodeAccess/NullSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin OneSkyLocalizationService, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/OneSkyLocalizationService/OneSkyLocalizationService.uplugin
+LogPluginManager: Loaded Plugin PerforceSourceControl, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/PerforceSourceControl/PerforceSourceControl.uplugin
+LogPluginManager: Loaded Plugin SubversionSourceControl, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/SubversionSourceControl/SubversionSourceControl.uplugin
+LogPluginManager: Loaded Plugin UObjectPlugin, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/UObjectPlugin/UObjectPlugin.uplugin
+LogPluginManager: Loaded Plugin VisualStudioSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/VisualStudioSourceCodeAccess/VisualStudioSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin XCodeSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/XCodeSourceCodeAccess/XCodeSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin AudioCapture, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/AudioCapture/AudioCapture.uplugin
+LogPluginManager: Loaded Plugin EpicSurvey, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/EpicSurvey/EpicSurvey.uplugin
+LogPluginManager: Loaded Plugin MacGraphicsSwitching, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/MacGraphicsSwitching/MacGraphicsSwitching.uplugin
+LogPluginManager: Loaded Plugin MobileLauncherProfileWizard, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/MobileLauncherProfileWizard/MobileLauncherProfileWizard.uplugin
+LogPluginManager: Loaded Plugin PluginBrowser, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/PluginBrowser/PluginBrowser.uplugin
+LogPluginManager: Loaded Plugin SpeedTreeImporter, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/SpeedTreeImporter/SpeedTreeImporter.uplugin
+LogPluginManager: Loaded Plugin SuperSearchEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/SuperSearchEditor/SuperSearchEditor.uplugin
+LogPluginManager: Loaded Plugin AlembicImporter, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/AlembicImporter/AlembicImporter.uplugin
+LogPluginManager: Loaded Plugin BlueprintStats, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/BlueprintStats/BlueprintStats.uplugin
+LogPluginManager: Loaded Plugin CharacterAI, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin
+LogPluginManager: Loaded Plugin CodeEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/CodeEditor/CodeEditor.uplugin
+LogPluginManager: Loaded Plugin CodeView, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/CodeView/CodeView.uplugin
+LogPluginManager: Loaded Plugin HTML5Networking, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/HTML5Networking/HTML5Networking.uplugin
+LogPluginManager: Loaded Plugin OSVR, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/OSVR/OSVR.uplugin
+LogPluginManager: Loaded Plugin Phya, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/Phya/Phya.uplugin
+LogPluginManager: Loaded Plugin SignificanceManager, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/SignificanceManager/SignificanceManager.uplugin
+LogPluginManager: Loaded Plugin SimpleHMD, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/SimpleHMD/SimpleHMD.uplugin
+LogPluginManager: Loaded Plugin StereoPanorama, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/StereoPanorama/StereoPanorama.uplugin
+LogPluginManager: Loaded Plugin StructBox, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/StructBox/StructBox.uplugin
+LogPluginManager: Loaded Plugin AndroidMedia, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
+LogPluginManager: Loaded Plugin AvfMedia, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
+LogPluginManager: Loaded Plugin MediaPlayerEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin
+LogPluginManager: Loaded Plugin WmfMedia, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin
+LogPluginManager: Loaded Plugin MessagingDebugger, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Messaging/MessagingDebugger/MessagingDebugger.uplugin
+LogPluginManager: Loaded Plugin TcpMessaging, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin
+LogPluginManager: Loaded Plugin UdpMessaging, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin
+LogPluginManager: Loaded Plugin LevelSequenceEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin
+LogPluginManager: Loaded Plugin MatineeToLevelSequence, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/MovieScene/MatineeToLevelSequence/MatineeToLevelSequence.uplugin
+LogPluginManager: Loaded Plugin NetcodeUnitTest, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/NetcodeUnitTest.uplugin
+LogPluginManager: Loaded Plugin NUTUnrealEngine4, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/NUTUnrealEngine4.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGameCircle, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/Android/OnlineSubsystemGameCircle/OnlineSubsystemGameCircle.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGooglePlay, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/OnlineSubsystemGooglePlay.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemIOS, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/IOS/OnlineSubsystemIOS/OnlineSubsystemIOS.uplugin
+LogPluginManager: Loaded Plugin OnlineFramework, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineFramework/OnlineFramework.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystem, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemAmazon, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemAmazon/OnlineSubsystemAmazon.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemFacebook, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemFacebook/OnlineSubsystemFacebook.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemNull, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemOculus, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemOculus/OnlineSubsystemOculus.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemSteam, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemSteam/OnlineSubsystemSteam.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemUtils, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin
+LogPluginManager: Loaded Plugin IOSTapJoy, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Advertising/IOSTapJoy/IOSTapJoy.uplugin
+LogPluginManager: Loaded Plugin AnalyticsBlueprintLibrary, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/AnalyticsBlueprintLibrary.uplugin
+LogPluginManager: Loaded Plugin AnalyticsMulticast, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/AnalyticsMulticast/AnalyticsMulticast.uplugin
+LogPluginManager: Loaded Plugin Apsalar, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/Apsalar/Apsalar.uplugin
+LogPluginManager: Loaded Plugin FileLogging, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/FileLogging/FileLogging.uplugin
+LogPluginManager: Loaded Plugin Flurry, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/Flurry/Flurry.uplugin
+LogPluginManager: Loaded Plugin AndroidDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/AndroidDeviceProfileSelector/AndroidDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin AndroidMoviePlayer, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/AndroidMoviePlayer/AndroidMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin AppleMoviePlayer, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/AppleMoviePlayer/AppleMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ArchVisCharacter, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin
+LogPluginManager: Loaded Plugin CableComponent, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin
+LogPluginManager: Loaded Plugin CustomMeshComponent, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin
+LogPluginManager: Loaded Plugin ExampleDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin GearVR, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/GearVR/GearVR.uplugin
+LogPluginManager: Loaded Plugin GoogleVRController, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRController/GoogleVRController.uplugin
+LogPluginManager: Loaded Plugin GoogleVRHMD, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRHMD/GoogleVRHMD.uplugin
+LogPluginManager: Loaded Plugin IOSDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/IOSDeviceProfileSelector/IOSDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LeapMotion, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/LeapMotion/LeapMotion.uplugin
+LogPluginManager: Loaded Plugin LinuxDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/LinuxDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin MIDIDevice, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/MIDIDevice/MIDIDevice.uplugin
+LogPluginManager: Loaded Plugin MobilePatchingUtils, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/MobilePatchingUtils/MobilePatchingUtils.uplugin
+LogPluginManager: Loaded Plugin Ansel, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Nvidia/Ansel/Ansel.uplugin
+LogPluginManager: Loaded Plugin OculusAudio, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/OculusAudio/OculusAudio.uplugin
+LogPluginManager: Loaded Plugin OculusInput, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/OculusInput/OculusInput.uplugin
+LogPluginManager: Loaded Plugin OculusLibrary, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/OculusLibrary/OculusLibrary.uplugin
+LogPluginManager: Loaded Plugin OculusRift, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin
+LogPluginManager: Loaded Plugin Oodle, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/PacketHandlers/CompressionComponents/Oodle/Oodle.uplugin
+LogPluginManager: Loaded Plugin ProceduralMeshComponent, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin
+LogPluginManager: Loaded Plugin SoundMod, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/SoundMod/SoundMod.uplugin
+LogPluginManager: Loaded Plugin SoundVisualizations, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/SoundVisualizations/SoundVisualizations.uplugin
+LogPluginManager: Loaded Plugin SteamController, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Steam/SteamController/SteamController.uplugin
+LogPluginManager: Loaded Plugin SteamVR, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin
+LogPluginManager: Loaded Plugin WebBrowserWidget, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/WebBrowserWidget/WebBrowserWidget.uplugin
+LogPluginManager: Loaded Plugin WindowsDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/WindowsDeviceProfileSelector/WindowsDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin WindowsMoviePlayer, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ScriptPlugin, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/ScriptPlugin/ScriptPlugin.uplugin
+LogPluginManager: Loaded Plugin SlateRemote, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin
+LogPluginManager: Loaded Plugin EditorTests, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/EditorTests/EditorTests.uplugin
+LogPluginManager: Loaded Plugin FbxAutomationTestBuilder, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/FbxAutomationTestBuilder/FbxAutomationTestBuilder.uplugin
+LogPluginManager: Loaded Plugin FunctionalTestingEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/FunctionalTestingEditor/FunctionalTestingEditor.uplugin
+LogPluginManager: Loaded Plugin RuntimeTests, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/RuntimeTests/RuntimeTests.uplugin
+LogPluginManager: Loaded Plugin ScreenshotTools, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/ScreenshotTools/ScreenshotTools.uplugin
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+OCULUS: Info: [CAPI] LibOVR module is located at C:\Program Files\Oculus\Support\oculus-runtime\LibOVRRT64_1.dll
+OCULUS: Debug: Connected to the server running version (prod = 1).1.10.0(build = 310947) feature version = 0. Client runs version (prod = 1).1.10.0(build = 310947) feature version = 0
+LogInit: Build: ++UE4+Release-4.14-CL-3195953
+LogInit: Engine Version: 4.14.0-3195953+++UE4+Release-4.14
+LogInit: Compatible Engine Version: 4.14.0-3195953+++UE4+Release-4.14
+LogInit: Net CL: 3195953
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 7
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 8
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 17
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 1
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Nov 12 2016 02:14:10
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.14
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.14/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.11.30-06.16.19:983][  0]LogConsoleManager:Display: Setting the console variable 'r.RHICmdBypass' with 'SetByProjectSetting' was ignored as it is lower priority than the previous 'SetBySystemSettingsIni'
+[2016.11.30-06.16.19:985][  0]LogInit: Selected Device Profile: [Windows]
+[2016.11.30-06.16.19:985][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.11.30-06.16.19:996][  0]LogInit: Computer: DESKTOP-5QTR0BH
+[2016.11.30-06.16.19:996][  0]LogInit: User: i4DsVRUser
+[2016.11.30-06.16.19:996][  0]LogInit: CPU Page size=65536, Cores=6
+[2016.11.30-06.16.19:996][  0]LogInit: High frequency timer resolution =3.220788 MHz
+[2016.11.30-06.16.19:996][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2016.11.30-06.16.19:997][  0]LogMemory: Platform Memory Stats for Windows
+[2016.11.30-06.16.19:997][  0]LogMemory: Process Physical Memory: 274.55 MB used, 274.55 MB peak
+[2016.11.30-06.16.19:997][  0]LogMemory: Process Virtual Memory: 276.35 MB used, 276.35 MB peak
+[2016.11.30-06.16.19:997][  0]LogMemory: Physical Memory: 4557.52 MB used,  28110.62 MB free, 32668.13 MB total
+[2016.11.30-06.16.19:997][  0]LogMemory: Virtual Memory: 730.30 MB used,  28110.62 MB free, 134217728.00 MB total
+[2016.11.30-06.16.20:016][  0]LogTextLocalizationManager: No translations for ('de-CH') exist, falling back to 'en' for localization and internationalization data.
+[2016.11.30-06.16.20:601][  0]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(c056all)
+[2016.11.30-06.16.20:601][  0]LogD3D11RHI: D3D11 adapters:
+[2016.11.30-06.16.20:618][  0]LogD3D11RHI:    0. 'AMD Radeon (TM) R9 390 Series' (Feature Level 11_0)
+[2016.11.30-06.16.20:618][  0]LogD3D11RHI:       8169/0/16334 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2016.11.30-06.16.20:619][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.11.30-06.16.20:619][  0]LogD3D11RHI:       0/0/16334 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2016.11.30-06.16.20:619][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.11.30-06.16.20:622][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.11.30-06.16.20:622][  0]LogD3D11RHI:     GPU DeviceId: 0x67b0 (for the marketing name, search the web for "GPU Device Id")
+[2016.11.30-06.16.20:622][  0]LogWindows: EnumDisplayDevices:
+[2016.11.30-06.16.20:622][  0]LogWindows:    0. 'AMD Radeon (TM) R9 390 Series' (P:1 D:1)
+[2016.11.30-06.16.20:622][  0]LogWindows:    1. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
+[2016.11.30-06.16.20:623][  0]LogWindows:    2. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
+[2016.11.30-06.16.20:623][  0]LogWindows:    3. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
+[2016.11.30-06.16.20:623][  0]LogWindows:    4. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
+[2016.11.30-06.16.20:623][  0]LogWindows:    5. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
+[2016.11.30-06.16.20:623][  0]LogWindows: DebugString: FoundDriverCount:6 
+[2016.11.30-06.16.20:623][  0]LogD3D11RHI:     Adapter Name: AMD Radeon (TM) R9 390 Series
+[2016.11.30-06.16.20:623][  0]LogD3D11RHI:   Driver Version: Crimson 16.6 (internal:21.19.137.1, unified:21.19.137.1)
+[2016.11.30-06.16.20:623][  0]LogD3D11RHI:      Driver Date: 9-16-2016
+[2016.11.30-06.16.20:623][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.11.30-06.16.20:631][  0]LogD3D11RHI: Async texture creation enabled
+[2016.11.30-06.16.20:644][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2016.11.30-06.16.20:646][  0]LogShaderCompilers: Guid format shader working directory is -19 characters bigger than the processId version (../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Intermediate/Shaders/WorkingDirectory/7240/).
+[2016.11.30-06.16.20:646][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/i4Ds VR User/AppData/Local/Temp/UnrealShaderWorkingDir/CDF25B6C45B3ADC1A3E916987F29F78B/'.
+[2016.11.30-06.16.20:646][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.11.30-06.16.21:618][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.11.30-06.16.21:667][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2016.11.30-06.16.21:717][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2016.11.30-06.16.21:768][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2016.11.30-06.16.21:818][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2016.11.30-06.16.21:869][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.11.30-06.16.21:920][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.11.30-06.16.21:969][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.11.30-06.16.22:010][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.11.30-06.16.22:060][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.11.30-06.16.22:109][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.11.30-06.16.22:158][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.11.30-06.16.22:207][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.11.30-06.16.22:256][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.11.30-06.16.22:304][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.11.30-06.16.22:401][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.11.30-06.16.22:401][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.11.30-06.16.22:435][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.11.30-06.16.22:513][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.11.30-06.16.22:545][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.11.30-06.16.22:594][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2016.11.30-06.16.22:642][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.11.30-06.16.22:691][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.11.30-06.16.22:739][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.11.30-06.16.22:740][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.11.30-06.16.23:090][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.11.30-06.16.23:150][  0]LogDerivedDataCache: Loaded boot cache 0.06s 61MB C:/Users/i4Ds VR User/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2016.11.30-06.16.23:150][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/i4Ds VR User/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
+[2016.11.30-06.16.23:150][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.11.30-06.16.23:150][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.11.30-06.16.23:150][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.11.30-06.16.23:150][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.11.30-06.16.23:167][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.11.30-06.16.23:179][  0]LogDerivedDataCache: Using Local data cache path C:/Users/i4Ds VR User/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.11.30-06.16.23:361][  0]LogInit: Selected Device Profile: [Windows]
+[2016.11.30-06.16.23:363][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.11.30-06.16.23:550][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2016.11.30-06.16.23:588][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2016.11.30-06.16.23:628][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2016.11.30-06.16.23:628][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2016.11.30-06.16.23:628][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.11.30-06.16.24:114][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: vrscaling, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 1578237493
+[2016.11.30-06.16.24:168][  0]LogAssetRegistry: FAssetRegistry took 0.0214 seconds to start up
+[2016.11.30-06.16.24:199][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.011459 seconds
+[2016.11.30-06.16.24:204][  0]LogUObjectArray: 31946 objects as part of root set at end of initial load.
+[2016.11.30-06.16.24:204][  0]LogUObjectAllocator: 6935848 out of 0 bytes used by permanent object pool.
+[2016.11.30-06.16.24:204][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.11.30-06.16.24:261][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.11.30-06.16.24:923][  0]LogSlate: Using Freetype 2.6.0
+[2016.11.30-06.16.24:924][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.11.30-06.16.24:924][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.11.30-06.16.25:641][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2016.11.30-06.16.25:699][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.11.30-06.16.25:981][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.11.30-06.16.26:321][  0]SourceControl: Info Source control is disabled
+[2016.11.30-06.16.26:350][  0]SourceControl: Info Source control is disabled
+[2016.11.30-06.16.26:390][  0]SourceControl: Info Source control is disabled
+[2016.11.30-06.16.26:429][  0]SourceControl: Info Source control is disabled
+[2016.11.30-06.16.27:526][  0]LogEngine: Initializing Engine...
+[2016.11.30-06.16.28:426][  0]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-6D69F444
+[2016.11.30-06.16.28:653][  0]LogAIModule: Creating AISystem for world Untitled
+[2016.11.30-06.16.28:675][  0]LogInit: XAudio2 using 'Lautsprecher (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.11.30-06.16.28:686][  0]LogInit: FAudioDevice initialized.
+[2016.11.30-06.16.28:715][  0]LogDerivedDataCache: Saved boot cache 0.03s 61MB C:/Users/i4Ds VR User/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2016.11.30-06.16.28:725][  0]LogInit: Texture streaming: Enabled
+[2016.11.30-06.16.28:888][  0]LogInit: Transaction tracking system initialized
+[2016.11.30-06.16.29:192][  0]BlueprintLog: New page: Editor Load
+[2016.11.30-06.16.29:963][  0]LocalizationService: Info Localization service is disabled
+[2016.11.30-06.16.30:564][  0]LogConsoleResponse:Display: 
+[2016.11.30-06.16.30:724][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2016.11.30-06.16.30:724][  0]LogCook:Display: Mobile HDR setting 1
+[2016.11.30-06.16.31:550][  0]LogFileCache: Scanning file cache for directory 'C:/Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/' took 0.01s
+[2016.11.30-06.16.31:550][  0]SourceControl: Info Source control is disabled
+[2016.11.30-06.16.31:554][  0]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 C:/Program Files (x86)/Epic Games/4.14/FeaturePacks/StarterContent.upack)
+[2016.11.30-06.16.31:565][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2016.11.30-06.16.31:572][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Architecture/Floor_400x400.uasset"
+[2016.11.30-06.16.31:578][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Architecture/Pillar_50x500.uasset"
+[2016.11.30-06.16.31:584][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
+[2016.11.30-06.16.31:589][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Architecture/Wall_400x200.uasset"
+[2016.11.30-06.16.31:594][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Architecture/Wall_400x300.uasset"
+[2016.11.30-06.16.31:600][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Architecture/Wall_400x400.uasset"
+[2016.11.30-06.16.31:605][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Architecture/Wall_500x500.uasset"
+[2016.11.30-06.16.31:611][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
+[2016.11.30-06.16.31:616][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
+[2016.11.30-06.16.31:622][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
+[2016.11.30-06.16.31:627][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
+[2016.11.30-06.16.31:633][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Audio/Collapse01.uasset"
+[2016.11.30-06.16.31:639][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Audio/Collapse02.uasset"
+[2016.11.30-06.16.31:642][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Audio/Collapse_Cue.uasset"
+[2016.11.30-06.16.31:648][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Audio/Explosion01.uasset"
+[2016.11.30-06.16.31:654][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Audio/Explosion02.uasset"
+[2016.11.30-06.16.31:657][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Audio/Explosion_Cue.uasset"
+[2016.11.30-06.16.31:663][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Audio/Fire01.uasset"
+[2016.11.30-06.16.31:666][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Audio/Fire01_Cue.uasset"
+[2016.11.30-06.16.31:672][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Audio/Fire_Sparks01.uasset"
+[2016.11.30-06.16.31:675][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
+[2016.11.30-06.16.31:681][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Audio/Light01.uasset"
+[2016.11.30-06.16.31:684][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Audio/Light01_Cue.uasset"
+[2016.11.30-06.16.31:690][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Audio/Light02.uasset"
+[2016.11.30-06.16.31:693][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Audio/Light02_Cue.uasset"
+[2016.11.30-06.16.31:699][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Audio/Smoke01.uasset"
+[2016.11.30-06.16.31:703][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Audio/Smoke01_Cue.uasset"
+[2016.11.30-06.16.31:708][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
+[2016.11.30-06.16.31:716][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Audio/Starter_Birds01.uasset"
+[2016.11.30-06.16.31:732][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Audio/Starter_Music01.uasset"
+[2016.11.30-06.16.31:735][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
+[2016.11.30-06.16.31:743][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Audio/Starter_Wind05.uasset"
+[2016.11.30-06.16.31:751][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Audio/Starter_Wind06.uasset"
+[2016.11.30-06.16.31:758][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Audio/Steam01.uasset"
+[2016.11.30-06.16.31:761][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Audio/Steam01_Cue.uasset"
+[2016.11.30-06.16.31:767][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
+[2016.11.30-06.16.31:773][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
+[2016.11.30-06.16.31:780][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
+[2016.11.30-06.16.31:785][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
+[2016.11.30-06.16.31:791][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
+[2016.11.30-06.16.31:796][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
+[2016.11.30-06.16.31:802][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
+[2016.11.30-06.16.31:808][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
+[2016.11.30-06.16.31:811][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
+[2016.11.30-06.16.31:817][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
+[2016.11.30-06.16.31:823][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
+[2016.11.30-06.16.31:828][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
+[2016.11.30-06.16.31:834][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
+[2016.11.30-06.16.31:840][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
+[2016.11.30-06.16.31:846][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
+[2016.11.30-06.16.31:849][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
+[2016.11.30-06.16.31:979][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
+[2016.11.30-06.16.31:985][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Maps/Advanced_Lighting.umap"
+[2016.11.30-06.16.31:993][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Maps/Minimal_Default.umap"
+[2016.11.30-06.16.32:017][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Maps/StarterMap.umap"
+[2016.11.30-06.16.32:023][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Materials/M_AssetPlatform.uasset"
+[2016.11.30-06.16.32:029][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Materials/M_Basic_Floor.uasset"
+[2016.11.30-06.16.32:035][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Materials/M_Basic_Wall.uasset"
+[2016.11.30-06.16.32:041][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
+[2016.11.30-06.16.32:046][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
+[2016.11.30-06.16.32:052][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
+[2016.11.30-06.16.32:057][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
+[2016.11.30-06.16.32:063][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
+[2016.11.30-06.16.32:068][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
+[2016.11.30-06.16.32:074][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
+[2016.11.30-06.16.32:079][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
+[2016.11.30-06.16.32:085][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
+[2016.11.30-06.16.32:091][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
+[2016.11.30-06.16.32:096][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
+[2016.11.30-06.16.32:102][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
+[2016.11.30-06.16.32:108][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
+[2016.11.30-06.16.32:114][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
+[2016.11.30-06.16.32:119][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Materials/M_Glass.uasset"
+[2016.11.30-06.16.32:125][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Materials/M_Ground_Grass.uasset"
+[2016.11.30-06.16.32:130][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
+[2016.11.30-06.16.32:135][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Materials/M_Ground_Moss.uasset"
+[2016.11.30-06.16.32:141][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
+[2016.11.30-06.16.32:146][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
+[2016.11.30-06.16.32:152][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
+[2016.11.30-06.16.32:157][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Materials/M_Metal_Copper.uasset"
+[2016.11.30-06.16.32:163][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Materials/M_Metal_Gold.uasset"
+[2016.11.30-06.16.32:169][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Materials/M_Metal_Rust.uasset"
+[2016.11.30-06.16.32:174][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Materials/M_Metal_Steel.uasset"
+[2016.11.30-06.16.32:180][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
+[2016.11.30-06.16.32:185][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
+[2016.11.30-06.16.32:191][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
+[2016.11.30-06.16.32:196][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Materials/M_Rock_Slate.uasset"
+[2016.11.30-06.16.32:202][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
+[2016.11.30-06.16.32:208][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
+[2016.11.30-06.16.32:214][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
+[2016.11.30-06.16.32:219][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Materials/M_Tech_Panel.uasset"
+[2016.11.30-06.16.32:225][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Materials/M_Water_Lake.uasset"
+[2016.11.30-06.16.32:231][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Materials/M_Water_Ocean.uasset"
+[2016.11.30-06.16.32:236][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
+[2016.11.30-06.16.32:242][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
+[2016.11.30-06.16.32:248][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Materials/M_Wood_Oak.uasset"
+[2016.11.30-06.16.32:253][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Materials/M_Wood_Pine.uasset"
+[2016.11.30-06.16.32:259][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
+[2016.11.30-06.16.32:265][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
+[2016.11.30-06.16.32:271][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Particles/P_Explosion.uasset"
+[2016.11.30-06.16.32:278][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Particles/P_Fire.uasset"
+[2016.11.30-06.16.32:286][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Particles/P_Smoke.uasset"
+[2016.11.30-06.16.32:291][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Particles/P_Sparks.uasset"
+[2016.11.30-06.16.32:297][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Particles/P_Steam_Lit.uasset"
+[2016.11.30-06.16.32:303][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Particles/Materials/M_Burst.uasset"
+[2016.11.30-06.16.32:308][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
+[2016.11.30-06.16.32:314][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
+[2016.11.30-06.16.32:319][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
+[2016.11.30-06.16.32:325][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
+[2016.11.30-06.16.32:330][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
+[2016.11.30-06.16.32:337][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
+[2016.11.30-06.16.32:343][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
+[2016.11.30-06.16.32:348][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
+[2016.11.30-06.16.32:362][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Particles/Materials/M_Spark.uasset"
+[2016.11.30-06.16.32:368][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Props/MaterialSphere.uasset"
+[2016.11.30-06.16.32:376][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Props/SM_Bush.uasset"
+[2016.11.30-06.16.32:382][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Props/SM_Chair.uasset"
+[2016.11.30-06.16.32:388][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Props/SM_CornerFrame.uasset"
+[2016.11.30-06.16.32:394][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Props/SM_Couch.uasset"
+[2016.11.30-06.16.32:400][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Props/SM_Door.uasset"
+[2016.11.30-06.16.32:406][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Props/SM_DoorFrame.uasset"
+[2016.11.30-06.16.32:411][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Props/SM_GlassWindow.uasset"
+[2016.11.30-06.16.32:417][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
+[2016.11.30-06.16.32:423][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
+[2016.11.30-06.16.32:431][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
+[2016.11.30-06.16.32:437][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Props/SM_PillarFrame.uasset"
+[2016.11.30-06.16.32:443][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Props/SM_PillarFrame300.uasset"
+[2016.11.30-06.16.32:448][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Props/SM_Rock.uasset"
+[2016.11.30-06.16.32:454][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Props/SM_Shelf.uasset"
+[2016.11.30-06.16.32:459][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Props/SM_Stairs.uasset"
+[2016.11.30-06.16.32:465][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Props/SM_Statue.uasset"
+[2016.11.30-06.16.32:470][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Props/SM_TableRound.uasset"
+[2016.11.30-06.16.32:476][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Props/SM_WindowFrame.uasset"
+[2016.11.30-06.16.32:482][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Props/Materials/M_Bush.uasset"
+[2016.11.30-06.16.32:488][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Props/Materials/M_Chair.uasset"
+[2016.11.30-06.16.32:493][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Props/Materials/M_Door.uasset"
+[2016.11.30-06.16.32:498][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Props/Materials/M_Frame.uasset"
+[2016.11.30-06.16.32:504][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Props/Materials/M_Lamp.uasset"
+[2016.11.30-06.16.32:509][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
+[2016.11.30-06.16.32:515][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
+[2016.11.30-06.16.32:521][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Props/Materials/M_Rock.uasset"
+[2016.11.30-06.16.32:526][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Props/Materials/M_Shelf.uasset"
+[2016.11.30-06.16.32:532][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Props/Materials/M_Statue.uasset"
+[2016.11.30-06.16.32:537][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
+[2016.11.30-06.16.32:543][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Props/Materials/M_TableRound.uasset"
+[2016.11.30-06.16.32:548][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Shapes/Shape_Cone.uasset"
+[2016.11.30-06.16.32:554][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Shapes/Shape_Cube.uasset"
+[2016.11.30-06.16.32:560][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
+[2016.11.30-06.16.32:565][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
+[2016.11.30-06.16.32:571][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Shapes/Shape_Pipe.uasset"
+[2016.11.30-06.16.32:577][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
+[2016.11.30-06.16.32:582][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
+[2016.11.30-06.16.32:588][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Shapes/Shape_Plane.uasset"
+[2016.11.30-06.16.32:593][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
+[2016.11.30-06.16.32:599][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Shapes/Shape_Sphere.uasset"
+[2016.11.30-06.16.32:605][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Shapes/Shape_Torus.uasset"
+[2016.11.30-06.16.32:610][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Shapes/Shape_Trim.uasset"
+[2016.11.30-06.16.32:616][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
+[2016.11.30-06.16.32:622][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
+[2016.11.30-06.16.32:627][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
+[2016.11.30-06.16.32:633][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Shapes/Shape_Tube.uasset"
+[2016.11.30-06.16.32:638][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
+[2016.11.30-06.16.32:644][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
+[2016.11.30-06.16.32:650][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
+[2016.11.30-06.16.32:666][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
+[2016.11.30-06.16.32:681][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
+[2016.11.30-06.16.32:695][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
+[2016.11.30-06.16.32:708][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
+[2016.11.30-06.16.32:724][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
+[2016.11.30-06.16.32:739][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
+[2016.11.30-06.16.32:758][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
+[2016.11.30-06.16.32:773][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
+[2016.11.30-06.16.32:793][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
+[2016.11.30-06.16.32:807][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
+[2016.11.30-06.16.32:821][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
+[2016.11.30-06.16.32:835][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
+[2016.11.30-06.16.32:851][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
+[2016.11.30-06.16.32:857][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Textures/T_Burst_M.uasset"
+[2016.11.30-06.16.32:863][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Textures/T_Bush_D.uasset"
+[2016.11.30-06.16.32:869][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Textures/T_Bush_N.uasset"
+[2016.11.30-06.16.32:876][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
+[2016.11.30-06.16.32:881][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
+[2016.11.30-06.16.32:888][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Textures/T_Chair_M.uasset"
+[2016.11.30-06.16.32:896][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Textures/T_Chair_N.uasset"
+[2016.11.30-06.16.32:902][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
+[2016.11.30-06.16.32:921][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
+[2016.11.30-06.16.32:929][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
+[2016.11.30-06.16.32:948][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
+[2016.11.30-06.16.32:959][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
+[2016.11.30-06.16.32:968][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
+[2016.11.30-06.16.32:982][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
+[2016.11.30-06.16.32:995][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
+[2016.11.30-06.16.33:011][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
+[2016.11.30-06.16.33:028][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
+[2016.11.30-06.16.33:044][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
+[2016.11.30-06.16.33:058][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
+[2016.11.30-06.16.33:076][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
+[2016.11.30-06.16.33:091][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
+[2016.11.30-06.16.33:103][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
+[2016.11.30-06.16.33:115][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
+[2016.11.30-06.16.33:130][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
+[2016.11.30-06.16.33:133][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
+[2016.11.30-06.16.33:143][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
+[2016.11.30-06.16.33:149][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Textures/T_Door_M.uasset"
+[2016.11.30-06.16.33:156][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Textures/T_Door_N.uasset"
+[2016.11.30-06.16.33:161][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
+[2016.11.30-06.16.33:171][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
+[2016.11.30-06.16.33:177][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
+[2016.11.30-06.16.33:183][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
+[2016.11.30-06.16.33:189][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Textures/T_Frame_M.uasset"
+[2016.11.30-06.16.33:196][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Textures/T_Frame_N.uasset"
+[2016.11.30-06.16.33:200][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Textures/T_Gradinet_01.uasset"
+[2016.11.30-06.16.33:218][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
+[2016.11.30-06.16.33:237][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
+[2016.11.30-06.16.33:255][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
+[2016.11.30-06.16.33:269][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
+[2016.11.30-06.16.33:289][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
+[2016.11.30-06.16.33:305][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
+[2016.11.30-06.16.33:312][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Textures/T_Lamp_M.uasset"
+[2016.11.30-06.16.33:320][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Textures/T_Lamp_N.uasset"
+[2016.11.30-06.16.33:338][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Textures/T_MacroVariation.uasset"
+[2016.11.30-06.16.33:355][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
+[2016.11.30-06.16.33:372][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
+[2016.11.30-06.16.33:387][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
+[2016.11.30-06.16.33:397][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
+[2016.11.30-06.16.33:413][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
+[2016.11.30-06.16.33:428][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
+[2016.11.30-06.16.33:438][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
+[2016.11.30-06.16.33:450][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
+[2016.11.30-06.16.33:465][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
+[2016.11.30-06.16.33:474][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Textures/T_RockMesh_M.uasset"
+[2016.11.30-06.16.33:486][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Textures/T_RockMesh_N.uasset"
+[2016.11.30-06.16.33:503][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
+[2016.11.30-06.16.33:518][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
+[2016.11.30-06.16.33:530][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
+[2016.11.30-06.16.33:546][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
+[2016.11.30-06.16.33:562][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
+[2016.11.30-06.16.33:581][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
+[2016.11.30-06.16.33:599][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
+[2016.11.30-06.16.33:614][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
+[2016.11.30-06.16.33:621][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Textures/T_Shelf_M.uasset"
+[2016.11.30-06.16.33:629][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Textures/T_Shelf_N.uasset"
+[2016.11.30-06.16.33:632][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
+[2016.11.30-06.16.33:649][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
+[2016.11.30-06.16.33:658][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
+[2016.11.30-06.16.33:669][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Textures/T_Spark_Core.uasset"
+[2016.11.30-06.16.33:679][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Textures/T_Statue_M.uasset"
+[2016.11.30-06.16.33:690][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Textures/T_Statue_N.uasset"
+[2016.11.30-06.16.33:699][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Textures/T_TableRound_M.uasset"
+[2016.11.30-06.16.33:714][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Textures/T_TableRound_N.uasset"
+[2016.11.30-06.16.33:721][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
+[2016.11.30-06.16.33:728][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
+[2016.11.30-06.16.33:734][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
+[2016.11.30-06.16.33:741][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
+[2016.11.30-06.16.33:748][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
+[2016.11.30-06.16.33:756][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
+[2016.11.30-06.16.33:764][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Textures/T_Water_M.uasset"
+[2016.11.30-06.16.33:772][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Textures/T_Water_N.uasset"
+[2016.11.30-06.16.33:783][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
+[2016.11.30-06.16.33:794][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
+[2016.11.30-06.16.33:808][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
+[2016.11.30-06.16.33:822][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
+[2016.11.30-06.16.33:834][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
+[2016.11.30-06.16.33:852][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
+[2016.11.30-06.16.33:861][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
+[2016.11.30-06.16.33:875][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
+[2016.11.30-06.16.33:885][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
+[2016.11.30-06.16.33:889][  0]LogMaterial: Missing cached shader map for material M_Basic_Floor, compiling. 
+[2016.11.30-06.16.34:010][  0]LogRenderer: Reallocating scene render targets to support 256x256 NumSamples 1 (Frame:2).
+[2016.11.30-06.16.34:068][  0]LogSavePackage: Save=13.32ms
+[2016.11.30-06.16.34:068][  0]LogSavePackage: Moving '../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Saved/Floor_400x4009F89557741E3B175B070449F061043C9.tmp' to '../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Architecture/Floor_400x400.uasset'
+[2016.11.30-06.16.34:070][  0]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/StarterContent/Architecture/Floor_400x400.uasset
+[2016.11.30-06.16.34:070][  0]LogFeaturePack:Warning: Inserted 1 feature packs
+[2016.11.30-06.16.34:073][  0]Cmd: MAP LOAD FILE="../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/VirtualRealityBP/Maps/StartupMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.11.30-06.16.34:074][  0]LightingResults: New page: Lighting Build
+[2016.11.30-06.16.34:114][  0]MapCheck: New page: Map Check
+[2016.11.30-06.16.34:114][  0]LightingResults: New page: Lighting Build
+[2016.11.30-06.16.34:179][  0]LogAIModule: Creating AISystem for world StartupMap
+[2016.11.30-06.16.34:185][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.11.30-06.16.34:186][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.11.30-06.16.34:232][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 46.251ms to complete.
+[2016.11.30-06.16.34:232][  0]LogFileHelpers: Loading map 'StartupMap' took 0.159
+[2016.11.30-06.16.34:283][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.11.30-06.16.34:372][  0]LogCollectionManager: Loaded 0 collections in 0.002093 seconds
+[2016.11.30-06.16.34:461][  0]LogFileCache: Scanning file cache for directory 'C:/Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Saved/Collections/' took 0.01s
+[2016.11.30-06.16.34:461][  0]LogFileCache: Scanning file cache for directory 'C:/Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/Developers/i4DsVRUser/Collections/' took 0.01s
+[2016.11.30-06.16.34:461][  0]LogFileCache: Scanning file cache for directory 'C:/Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/Collections/' took 0.01s
+[2016.11.30-06.16.34:461][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.11.30-06.16.34:471][  0]LogContentBrowser: Native class hierarchy populated in 0.0105 seconds. Added 2190 classes and 428 folders.
+[2016.11.30-06.16.34:524][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.11.30-06.16.34:524][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.11.30-06.16.34:525][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0005 seconds. Added 13 classes and 0 folders.
+[2016.11.30-06.16.34:605][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2016.11.30-06.16.34:646][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2016.11.30-06.16.34:699][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2016.11.30-06.16.34:781][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.11.30-06.16.34:786][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.11.30-06.16.34:861][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2016.11.30-06.16.34:862][  0]LogLoad: (Engine Initialization) Total time: 16.92 seconds
+[2016.11.30-06.16.34:862][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.04 seconds
+[2016.11.30-06.16.34:862][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.11.30-06.16.34:862][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.11.30-06.16.34:871][  0]LogOcInput: OculusInput pre-init called
+[2016.11.30-06.16.34:882][  0]LogOcInput: OculusInput is initialized. Init status 0. Runtime version: 1.10.0
+[2016.11.30-06.16.35:083][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.11.30-06.16.35:254][  0]LogRenderer: Reallocating scene render targets to support 1208x652 NumSamples 1 (Frame:3).
+[2016.11.30-06.16.35:279][  1]LogAssetRegistry: Asset discovery search completed in 11.1335 seconds
+[2016.11.30-06.16.35:279][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.11.30-06.16.35:279][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000020 seconds (updated 0 objects)
+[2016.11.30-06.16.42:255][706]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2016.11.30-06.16.42:311][709]LogTemp:Display: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.VRScaling
+
+[2016.11.30-06.16.42:311][709]LogTemp:Display: CWD: C:\Program Files (x86)\Epic Games\4.14\Engine\Binaries\DotNet\IOS
+
+[2016.11.30-06.16.42:311][709]LogTemp:Display: Initial Dir: C:\Program Files (x86)\Epic Games\4.14
+
+[2016.11.30-06.16.42:311][709]LogTemp:Display: Env CWD: C:\Program Files (x86)\Epic Games\4.14\Engine\Binaries\DotNet\IOS
+
+[2016.11.30-06.16.42:311][709]LogTemp:Display: BranchPath = DESKTOP-5QTR0BH/C/Program Files (x86)/Epic Games/4.14/Engine/Binaries --- GameBranchPath = DESKTOP-5QTR0BH/C/Program Files (x86)/Epic Games/4.14/Engine/Binaries
+
+[2016.11.30-06.16.42:335][712]LogTemp:Display: IPP ERROR: Application exception: System.IO.DirectoryNotFoundException: Ein Teil des Pfades "C:\Users\i4Ds VR User\AppData\Local\Apple Computer\MobileDevice\Provisioning Profiles" konnte nicht gefunden werden.
+
+[2016.11.30-06.16.42:335][712]LogTemp:Display:    bei System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+
+[2016.11.30-06.16.42:335][712]LogTemp:Display:    bei System.IO.FileSystemEnumerableIterator`1.CommonInit()
+
+[2016.11.30-06.16.42:335][712]LogTemp:Display:    bei System.IO.Directory.EnumerateFiles(String path, String searchPattern)
+
+[2016.11.30-06.16.42:335][712]LogTemp:Display:    bei iPhonePackager.CodeSignatureBuilder.FindProvisions(String CFBundleIdentifier)
+
+[2016.11.30-06.16.42:335][712]LogTemp:Display:    bei iPhonePackager.Program.Main(String[] args)
+
+[2016.11.30-06.17.03:860][207]LogAIModule: Creating AISystem for world MotionControllerMap
+[2016.11.30-06.17.03:883][207]Cmd: MAP LOAD FILE="../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/VirtualRealityBP/Maps/MotionControllerMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.11.30-06.17.03:884][207]LightingResults: New page: Lighting Build
+[2016.11.30-06.17.03:884][207]LoadErrors: New page: Loading map: MotionControllerMap.umap
+[2016.11.30-06.17.03:885][207]MapCheck: New page: Map Check
+[2016.11.30-06.17.03:885][207]LightingResults: New page: Lighting Build
+[2016.11.30-06.17.03:938][207]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.11.30-06.17.03:952][207]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.11.30-06.17.03:996][207]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 43.69ms to complete.
+[2016.11.30-06.17.03:996][207]LogFileHelpers: Loading map 'MotionControllerMap' took 0.114
+[2016.11.30-06.17.08:210][707]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2016.11.30-06.17.08:210][707]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.11.30-06.17.08:210][707]PIE: New page: PIE session: MotionControllerMap (Nov 30, 2016, 8:17:08 AM)
+[2016.11.30-06.17.08:211][707]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2016.11.30-06.17.08:218][707]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007564s)
+[2016.11.30-06.17.08:219][707]LogAIModule: Creating AISystem for world MotionControllerMap
+[2016.11.30-06.17.08:219][707]LogPlayLevel: PIE: World Init took: (0.000527s)
+[2016.11.30-06.17.08:219][707]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.008288s)
+[2016.11.30-06.17.08:243][707]LogInit: XAudio2 using 'Lautsprecher (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.11.30-06.17.08:251][707]LogInit: FAudioDevice initialized.
+[2016.11.30-06.17.08:333][707]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.11.30-06.17.08:333][707]LogLoad: Game class is 'GameModeBase'
+[2016.11.30-06.17.08:335][707]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 0) at 2016.11.30-07.17.08
+[2016.11.30-06.17.08:336][707]LogWorld: Bringing up level for play took: 0.002031
+[2016.11.30-06.17.08:372][707]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
+[2016.11.30-06.17.08:379][707]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap 0.673
+[2016.11.30-06.17.08:379][707]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2016.11.30-06.17.08:428][708]LogRenderer: Reallocating scene render targets to support 3024x1680 NumSamples 1 (Frame:3087).
+[2016.11.30-06.17.10:915][926]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2016.11.30-06.17.11:034][926]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2016.11.30-06.17.14:728][356]LogTemp: Repeting last play command: VR Preview
+[2016.11.30-06.17.14:736][356]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2016.11.30-06.17.14:737][356]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.11.30-06.17.14:737][356]PIE: New page: PIE session: MotionControllerMap (Nov 30, 2016, 8:17:14 AM)
+[2016.11.30-06.17.14:737][356]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2016.11.30-06.17.14:745][356]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008066s)
+[2016.11.30-06.17.14:745][356]LogAIModule: Creating AISystem for world MotionControllerMap
+[2016.11.30-06.17.14:745][356]LogPlayLevel: PIE: World Init took: (0.000543s)
+[2016.11.30-06.17.14:745][356]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.008790s)
+[2016.11.30-06.17.14:770][356]LogInit: XAudio2 using 'Lautsprecher (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.11.30-06.17.14:777][356]LogInit: FAudioDevice initialized.
+[2016.11.30-06.17.14:844][356]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.11.30-06.17.14:844][356]LogLoad: Game class is 'GameModeBase'
+[2016.11.30-06.17.14:846][356]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 0) at 2016.11.30-07.17.14
+[2016.11.30-06.17.14:847][356]LogWorld: Bringing up level for play took: 0.001994
+[2016.11.30-06.17.14:853][356]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap -0.852
+[2016.11.30-06.17.14:854][356]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2016.11.30-06.17.20:164][824]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2016.11.30-06.17.20:278][824]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2016.11.30-06.17.37:315][747]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 111 classes and 0 folders.
+[2016.11.30-06.17.37:386][747]LogBlueprintSupport:Warning: Editor config [EditoronlyBP] settings are DEPRECATED. You're not explicitly setting any, but they've been defaulting to off. If you are relying on this functionality, then please fix it up so your Blueprints don't break in a future release.
+[2016.11.30-06.21.09:413][256]BlueprintLog: New page: Compile MotionControllerPawn
+[2016.11.30-06.21.13:019][621]LogSavePackage: Save=59.72ms
+[2016.11.30-06.21.13:019][621]LogSavePackage: Moving '../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Saved/MotionControllerPawn86F988994140D3D028DC538FA98E0B2C.tmp' to '../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/VirtualRealityBP/Blueprints/MotionControllerPawn.uasset'
+[2016.11.30-06.21.13:021][621]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/VirtualRealityBP/Blueprints/MotionControllerPawn.uasset
+[2016.11.30-06.21.18:348][233]LogTemp: Repeting last play command: VR Preview
+[2016.11.30-06.21.18:364][233]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2016.11.30-06.21.18:364][233]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.11.30-06.21.18:364][233]PIE: New page: PIE session: MotionControllerMap (Nov 30, 2016, 8:21:18 AM)
+[2016.11.30-06.21.18:364][233]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2016.11.30-06.21.18:372][233]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007588s)
+[2016.11.30-06.21.18:372][233]LogAIModule: Creating AISystem for world MotionControllerMap
+[2016.11.30-06.21.18:372][233]LogPlayLevel: PIE: World Init took: (0.000579s)
+[2016.11.30-06.21.18:372][233]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.008355s)
+[2016.11.30-06.21.18:401][233]LogInit: XAudio2 using 'Lautsprecher (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.11.30-06.21.18:409][233]LogInit: FAudioDevice initialized.
+[2016.11.30-06.21.18:477][233]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.11.30-06.21.18:477][233]LogLoad: Game class is 'GameModeBase'
+[2016.11.30-06.21.18:481][233]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 0) at 2016.11.30-07.21.18
+[2016.11.30-06.21.18:481][233]LogWorld: Bringing up level for play took: 0.002814
+[2016.11.30-06.21.18:488][233]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap 0.782
+[2016.11.30-06.21.18:488][233]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2016.11.30-06.21.58:455][802]LogAudio:Warning: Current Audio Device with ID {0.0.0.00000000}.{df7758f8-95e0-436e-8dc2-c72d75630c04} was removed. Shutting down audio device.
+[2016.11.30-06.21.58:455][802]LogAudio:Warning: Current Audio Device with ID {0.0.0.00000000}.{df7758f8-95e0-436e-8dc2-c72d75630c04} was removed. Shutting down audio device.
+[2016.11.30-06.22.44:271][900]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2016.11.30-06.22.44:392][900]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2016.11.30-06.23.57:950][781]LogSavePackage: Save=59.78ms
+[2016.11.30-06.23.57:950][781]LogSavePackage: Moving '../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Saved/MotionControllerPawnBFFCED6D411A85FF375DAF922B706481.tmp' to '../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/VirtualRealityBP/Blueprints/MotionControllerPawn.uasset'
+[2016.11.30-06.23.57:952][781]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/VirtualRealityBP/Blueprints/MotionControllerPawn.uasset
+[2016.11.30-06.23.59:501][924]BlueprintLog: New page: Compile MotionControllerPawn
+[2016.11.30-06.24.09:506][839]LogSavePackage: Save=62.39ms
+[2016.11.30-06.24.09:506][839]LogSavePackage: Moving '../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Saved/MotionControllerPawn294713CC41425E5C17FA939CA24962F3.tmp' to '../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/VirtualRealityBP/Blueprints/MotionControllerPawn.uasset'
+[2016.11.30-06.24.09:507][839]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/i4Ds VR User/Documents/Unreal Projects/VRScaling/Content/VirtualRealityBP/Blueprints/MotionControllerPawn.uasset
+[2016.11.30-06.24.12:604][155]LogTemp: Repeting last play command: VR Preview
+[2016.11.30-06.24.12:613][155]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2016.11.30-06.24.12:613][155]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.11.30-06.24.12:613][155]PIE: New page: PIE session: MotionControllerMap (Nov 30, 2016, 8:24:12 AM)
+[2016.11.30-06.24.12:613][155]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2016.11.30-06.24.12:621][155]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007616s)
+[2016.11.30-06.24.12:621][155]LogAIModule: Creating AISystem for world MotionControllerMap
+[2016.11.30-06.24.12:621][155]LogPlayLevel: PIE: World Init took: (0.000585s)
+[2016.11.30-06.24.12:622][155]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.008448s)
+[2016.11.30-06.24.12:654][155]LogInit: XAudio2 using 'Lautsprecher (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.11.30-06.24.12:661][155]LogInit: FAudioDevice initialized.
+[2016.11.30-06.24.12:731][155]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.11.30-06.24.12:731][155]LogLoad: Game class is 'GameModeBase'
+[2016.11.30-06.24.12:734][155]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 0) at 2016.11.30-07.24.12
+[2016.11.30-06.24.12:734][155]LogWorld: Bringing up level for play took: 0.002008
+[2016.11.30-06.24.12:741][155]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap 1.035
+[2016.11.30-06.24.12:741][155]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2016.11.30-06.24.45:324][ 65]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2016.11.30-06.24.45:446][ 65]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2016.11.30-06.25.29:073][163]LogTemp: Repeting last play command: VR Preview
+[2016.11.30-06.25.29:081][163]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2016.11.30-06.25.29:081][163]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.11.30-06.25.29:081][163]LogPlayLevel: [PlayLevel] Compiling MotionControllerPawn before play...
+[2016.11.30-06.25.29:216][163]LogPlayLevel: PlayLevel: Blueprint regeneration took 135 ms (1 blueprints)
+[2016.11.30-06.25.29:217][163]PIE: New page: PIE session: MotionControllerMap (Nov 30, 2016, 8:25:29 AM)
+[2016.11.30-06.25.29:217][163]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2016.11.30-06.25.29:224][163]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007581s)
+[2016.11.30-06.25.29:225][163]LogAIModule: Creating AISystem for world MotionControllerMap
+[2016.11.30-06.25.29:225][163]LogPlayLevel: PIE: World Init took: (0.000729s)
+[2016.11.30-06.25.29:225][163]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.008551s)
+[2016.11.30-06.25.29:263][163]LogInit: XAudio2 using 'Lautsprecher (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.11.30-06.25.29:270][163]LogInit: FAudioDevice initialized.
+[2016.11.30-06.25.29:348][163]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.11.30-06.25.29:348][163]LogLoad: Game class is 'GameModeBase'
+[2016.11.30-06.25.29:351][163]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 0) at 2016.11.30-07.25.29
+[2016.11.30-06.25.29:351][163]LogWorld: Bringing up level for play took: 0.002038
+[2016.11.30-06.25.29:363][163]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap -0.343
+[2016.11.30-06.25.29:363][163]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2016.11.30-06.28.19:627][399]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2016.11.30-06.28.19:827][399]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2016.11.30-06.28.22:213][613]LogTemp: Repeting last play command: VR Preview
+[2016.11.30-06.28.22:222][613]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2016.11.30-06.28.22:222][613]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.11.30-06.28.22:222][613]PIE: New page: PIE session: MotionControllerMap (Nov 30, 2016, 8:28:22 AM)
+[2016.11.30-06.28.22:222][613]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2016.11.30-06.28.22:230][613]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007688s)
+[2016.11.30-06.28.22:230][613]LogAIModule: Creating AISystem for world MotionControllerMap
+[2016.11.30-06.28.22:230][613]LogPlayLevel: PIE: World Init took: (0.000542s)
+[2016.11.30-06.28.22:230][613]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.008447s)
+[2016.11.30-06.28.22:263][613]LogInit: XAudio2 using 'Lautsprecher (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.11.30-06.28.22:270][613]LogInit: FAudioDevice initialized.
+[2016.11.30-06.28.22:349][613]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.11.30-06.28.22:349][613]LogLoad: Game class is 'GameModeBase'
+[2016.11.30-06.28.22:352][613]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 0) at 2016.11.30-07.28.22
+[2016.11.30-06.28.22:352][613]LogWorld: Bringing up level for play took: 0.001988
+[2016.11.30-06.28.22:355][613]LogUnrealMath:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2016.11.30-06.28.22:355][613]LogOutputDevice:Warning: 
+
+Script Stack:
+BP_MotionController_C.SetupRoomScaleOutline
+BP_MotionController_C.ExecuteUbergraph_BP_MotionController
+BP_MotionController_C.ReceiveBeginPlay
+
+[2016.11.30-06.28.22:364][613]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.010 s
+[2016.11.30-06.28.22:364][613]LogOutputDevice:Error: === Handled ensure: ===
+[2016.11.30-06.28.22:364][613]LogOutputDevice:Error: 
+[2016.11.30-06.28.22:364][613]LogOutputDevice:Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.14+Compile\Sync\Engine\Source\Runtime\Core\Private\Math\Matrix.cpp] [Line: 9]
+[2016.11.30-06.28.22:364][613]LogOutputDevice:Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2016.11.30-06.28.22:364][613]LogOutputDevice:Error: Stack: 
+[2016.11.30-06.28.22:364][613]LogOutputDevice:Error: 
+[2016.11.30-06.28.22:364][613]LogOutputDevice:Error: 
+[2016.11.30-06.28.22:364][613]LogOutputDevice:Error: 
+[2016.11.30-06.28.22:364][613]LogOutputDevice:Error: 
+[2016.11.30-06.28.22:364][613]LogOutputDevice:Error: 
+[2016.11.30-06.28.22:364][613]LogOutputDevice:Error: 
+[2016.11.30-06.28.22:364][613]LogOutputDevice:Error: 
+[2016.11.30-06.28.22:364][613]LogOutputDevice:Error: 
+[2016.11.30-06.28.22:364][613]LogOutputDevice:Error: 
+[2016.11.30-06.28.22:364][613]LogOutputDevice:Error: 
+[2016.11.30-06.28.22:364][613]LogOutputDevice:Error: 
+[2016.11.30-06.28.22:364][613]LogOutputDevice:Error: 
+[2016.11.30-06.28.22:364][613]LogOutputDevice:Error: 
+[2016.11.30-06.28.22:364][613]LogOutputDevice:Error: 
+[2016.11.30-06.28.22:364][613]LogOutputDevice:Error: 
+[2016.11.30-06.28.22:364][613]LogOutputDevice:Error: 
+[2016.11.30-06.28.22:364][613]LogOutputDevice:Error: 
+[2016.11.30-06.28.22:364][613]LogOutputDevice:Error: 
+[2016.11.30-06.28.22:364][613]LogOutputDevice:Error: 
+[2016.11.30-06.28.22:364][613]LogOutputDevice:Error: 
+[2016.11.30-06.28.22:364][613]LogOutputDevice:Error: 
+[2016.11.30-06.28.22:364][613]LogOutputDevice:Error: 
+[2016.11.30-06.28.22:364][613]LogOutputDevice:Error: 
+[2016.11.30-06.28.22:364][613]LogOutputDevice:Error: 
+[2016.11.30-06.28.22:364][613]LogOutputDevice:Error: 
+[2016.11.30-06.28.22:364][613]LogOutputDevice:Error: 
+[2016.11.30-06.28.22:364][613]LogOutputDevice:Error: 
+[2016.11.30-06.28.22:364][613]LogOutputDevice:Error: 
+[2016.11.30-06.28.22:364][613]LogOutputDevice:Error: 
+[2016.11.30-06.28.22:364][613]LogOutputDevice:Error: 
+[2016.11.30-06.28.22:364][613]LogOutputDevice:Error: 
+[2016.11.30-06.28.22:364][613]LogOutputDevice:Error: 
+[2016.11.30-06.28.22:364][613]LogOutputDevice:Error: 
+[2016.11.30-06.28.22:364][613]LogOutputDevice:Error: 
+[2016.11.30-06.28.22:364][613]LogOutputDevice:Error: 
+[2016.11.30-06.28.22:364][613]LogOutputDevice:Error: 
+[2016.11.30-06.28.22:364][613]LogOutputDevice:Error: 
+[2016.11.30-06.28.22:364][613]LogOutputDevice:Error: 
+[2016.11.30-06.28.22:372][613]LogStats:                SubmitErrorReport -  0.000 s
