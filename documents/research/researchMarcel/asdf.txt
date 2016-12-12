@@ -1,0 +1,27 @@
+fowärts movement auch bei rückwärts movement.
+input ignorieren bei knopfdruck.
+
+
+Q: how to find the specific method intake for SetRelativeRotation
+
+---
+I put the camera on a socket on the skeleton.
+Create a Blueprint that based on PlayerCameraManager.
+In the Defaults tab, find "Follow Hmd Orientation" and set it to "true".
+Create a Blueprint that based on PlayerController.
+In the Defaults tab, find Player Camera Manager Class and set it to your PlayerCameraManager Blueprint.
+Create a Blueprint that based on GameMode.
+In the Defaults tab, find Default Controller Class and set it to your PlayerController Blueprint.
+Finally, under your levels World Settings, find GameMode Override and set it to your GameMode Blueprint.
+--
+
+The Question: mapping real world movements virtual reality unreal engine 4
+
+
+Nodes in HMD (Head Mounted Display)
+Nodes in SteamVR. -> you can get the tracked space and also the device position and orientation of controllers.
+
+Question what other nodes are there?
+
+Selber tinkern sonst und eine extension machen von dem entsprechenden Controller.
+
