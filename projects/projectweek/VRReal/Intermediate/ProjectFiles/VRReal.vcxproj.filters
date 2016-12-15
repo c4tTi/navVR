@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\VRReal.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{A96B0E38-19CA-4713-81A8-4164A4C0DB66}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\VRReal.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\VRRealEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{629EF56D-E61D-4C59-85DA-55E7A6750055}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultScalability.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Plugins">
+			<UniqueIdentifier>{D807E324-F9A7-448B-B0A3-2594F18764C1}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\mordentral-vrexpansionplugin-c3213dd8ce1e">
+			<UniqueIdentifier>{5C432062-9FAC-45F4-888C-AB3457BAE5B3}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\mordentral-vrexpansionplugin-c3213dd8ce1e\Source">
+			<UniqueIdentifier>{E5A7A48E-A522-4129-96DE-24B0EADE2933}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\mordentral-vrexpansionplugin-c3213dd8ce1e\Source\VRExpansionPlugin">
+			<UniqueIdentifier>{50094A19-5D6D-429D-A6A3-11060802E49F}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Plugins\mordentral-vrexpansionplugin-c3213dd8ce1e\Source\VRExpansionPlugin\VRExpansionPlugin.Build.cs">
+			<Filter>Plugins\mordentral-vrexpansionplugin-c3213dd8ce1e\Source\VRExpansionPlugin</Filter>
+		</None >
+		<Filter Include="Plugins\mordentral-vrexpansionplugin-c3213dd8ce1e\Source\VRExpansionPlugin\Private">
+			<UniqueIdentifier>{9C143DA5-34B0-48EA-9531-B21CE5609AAC}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Plugins\mordentral-vrexpansionplugin-c3213dd8ce1e\Source\VRExpansionPlugin\Private\GripMotionControllerComponent.cpp">
+			<Filter>Plugins\mordentral-vrexpansionplugin-c3213dd8ce1e\Source\VRExpansionPlugin\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\mordentral-vrexpansionplugin-c3213dd8ce1e\Source\VRExpansionPlugin\Private\GrippableBoxComponent.cpp">
+			<Filter>Plugins\mordentral-vrexpansionplugin-c3213dd8ce1e\Source\VRExpansionPlugin\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\mordentral-vrexpansionplugin-c3213dd8ce1e\Source\VRExpansionPlugin\Private\GrippableCapsuleComponent.cpp">
+			<Filter>Plugins\mordentral-vrexpansionplugin-c3213dd8ce1e\Source\VRExpansionPlugin\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\mordentral-vrexpansionplugin-c3213dd8ce1e\Source\VRExpansionPlugin\Private\GrippableSkeletalMeshActor.cpp">
+			<Filter>Plugins\mordentral-vrexpansionplugin-c3213dd8ce1e\Source\VRExpansionPlugin\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\mordentral-vrexpansionplugin-c3213dd8ce1e\Source\VRExpansionPlugin\Private\GrippableSkeletalMeshComponent.cpp">
+			<Filter>Plugins\mordentral-vrexpansionplugin-c3213dd8ce1e\Source\VRExpansionPlugin\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\mordentral-vrexpansionplugin-c3213dd8ce1e\Source\VRExpansionPlugin\Private\GrippableSphereComponent.cpp">
+			<Filter>Plugins\mordentral-vrexpansionplugin-c3213dd8ce1e\Source\VRExpansionPlugin\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\mordentral-vrexpansionplugin-c3213dd8ce1e\Source\VRExpansionPlugin\Private\GrippableStaticMeshActor.cpp">
+			<Filter>Plugins\mordentral-vrexpansionplugin-c3213dd8ce1e\Source\VRExpansionPlugin\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\mordentral-vrexpansionplugin-c3213dd8ce1e\Source\VRExpansionPlugin\Private\GrippableStaticMeshComponent.cpp">
+			<Filter>Plugins\mordentral-vrexpansionplugin-c3213dd8ce1e\Source\VRExpansionPlugin\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\mordentral-vrexpansionplugin-c3213dd8ce1e\Source\VRExpansionPlugin\Private\ParentRelativeAttachmentComponent.cpp">
+			<Filter>Plugins\mordentral-vrexpansionplugin-c3213dd8ce1e\Source\VRExpansionPlugin\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\mordentral-vrexpansionplugin-c3213dd8ce1e\Source\VRExpansionPlugin\Private\ReplicatedVRCameraComponent.cpp">
+			<Filter>Plugins\mordentral-vrexpansionplugin-c3213dd8ce1e\Source\VRExpansionPlugin\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\mordentral-vrexpansionplugin-c3213dd8ce1e\Source\VRExpansionPlugin\Private\VRCharacter.cpp">
+			<Filter>Plugins\mordentral-vrexpansionplugin-c3213dd8ce1e\Source\VRExpansionPlugin\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\mordentral-vrexpansionplugin-c3213dd8ce1e\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp">
+			<Filter>Plugins\mordentral-vrexpansionplugin-c3213dd8ce1e\Source\VRExpansionPlugin\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\mordentral-vrexpansionplugin-c3213dd8ce1e\Source\VRExpansionPlugin\Private\VRExpansionFunctionLibrary.cpp">
+			<Filter>Plugins\mordentral-vrexpansionplugin-c3213dd8ce1e\Source\VRExpansionPlugin\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\mordentral-vrexpansionplugin-c3213dd8ce1e\Source\VRExpansionPlugin\Private\VRExpansionPlugin.cpp">
+			<Filter>Plugins\mordentral-vrexpansionplugin-c3213dd8ce1e\Source\VRExpansionPlugin\Private</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\mordentral-vrexpansionplugin-c3213dd8ce1e\Source\VRExpansionPlugin\Private\VRExpansionPluginPrivatePCH.h">
+			<Filter>Plugins\mordentral-vrexpansionplugin-c3213dd8ce1e\Source\VRExpansionPlugin\Private</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\mordentral-vrexpansionplugin-c3213dd8ce1e\Source\VRExpansionPlugin\Private\VRGripInterface.cpp">
+			<Filter>Plugins\mordentral-vrexpansionplugin-c3213dd8ce1e\Source\VRExpansionPlugin\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\mordentral-vrexpansionplugin-c3213dd8ce1e\Source\VRExpansionPlugin\Private\VRPathFollowingComponent.cpp">
+			<Filter>Plugins\mordentral-vrexpansionplugin-c3213dd8ce1e\Source\VRExpansionPlugin\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\mordentral-vrexpansionplugin-c3213dd8ce1e\Source\VRExpansionPlugin\Private\VRPlayerController.cpp">
+			<Filter>Plugins\mordentral-vrexpansionplugin-c3213dd8ce1e\Source\VRExpansionPlugin\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\mordentral-vrexpansionplugin-c3213dd8ce1e\Source\VRExpansionPlugin\Private\VRRootComponent.cpp">
+			<Filter>Plugins\mordentral-vrexpansionplugin-c3213dd8ce1e\Source\VRExpansionPlugin\Private</Filter>
+		</ClCompile >
+		<Filter Include="Plugins\mordentral-vrexpansionplugin-c3213dd8ce1e\Source\VRExpansionPlugin\Private\SimpleChar">
+			<UniqueIdentifier>{F7575EDB-A0F7-487A-9598-C3F2E494A0DE}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Plugins\mordentral-vrexpansionplugin-c3213dd8ce1e\Source\VRExpansionPlugin\Private\SimpleChar\VRSimpleCharacter.cpp">
+			<Filter>Plugins\mordentral-vrexpansionplugin-c3213dd8ce1e\Source\VRExpansionPlugin\Private\SimpleChar</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\mordentral-vrexpansionplugin-c3213dd8ce1e\Source\VRExpansionPlugin\Private\SimpleChar\VRSimpleCharacterMovementComponent.cpp">
+			<Filter>Plugins\mordentral-vrexpansionplugin-c3213dd8ce1e\Source\VRExpansionPlugin\Private\SimpleChar</Filter>
+		</ClCompile >
+		<Filter Include="Plugins\mordentral-vrexpansionplugin-c3213dd8ce1e\Source\VRExpansionPlugin\Public">
+			<UniqueIdentifier>{6C008874-1E11-4958-A48E-20FDAA10300F}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Plugins\mordentral-vrexpansionplugin-c3213dd8ce1e\Source\VRExpansionPlugin\Public\GripMotionControllerComponent.h">
+			<Filter>Plugins\mordentral-vrexpansionplugin-c3213dd8ce1e\Source\VRExpansionPlugin\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\mordentral-vrexpansionplugin-c3213dd8ce1e\Source\VRExpansionPlugin\Public\GrippableBoxComponent.h">
+			<Filter>Plugins\mordentral-vrexpansionplugin-c3213dd8ce1e\Source\VRExpansionPlugin\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\mordentral-vrexpansionplugin-c3213dd8ce1e\Source\VRExpansionPlugin\Public\GrippableCapsuleComponent.h">
+			<Filter>Plugins\mordentral-vrexpansionplugin-c3213dd8ce1e\Source\VRExpansionPlugin\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\mordentral-vrexpansionplugin-c3213dd8ce1e\Source\VRExpansionPlugin\Public\GrippableSkeletalMeshActor.h">
+			<Filter>Plugins\mordentral-vrexpansionplugin-c3213dd8ce1e\Source\VRExpansionPlugin\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\mordentral-vrexpansionplugin-c3213dd8ce1e\Source\VRExpansionPlugin\Public\GrippableSkeletalMeshComponent.h">
+			<Filter>Plugins\mordentral-vrexpansionplugin-c3213dd8ce1e\Source\VRExpansionPlugin\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\mordentral-vrexpansionplugin-c3213dd8ce1e\Source\VRExpansionPlugin\Public\GrippableSphereComponent.h">
+			<Filter>Plugins\mordentral-vrexpansionplugin-c3213dd8ce1e\Source\VRExpansionPlugin\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\mordentral-vrexpansionplugin-c3213dd8ce1e\Source\VRExpansionPlugin\Public\GrippableStaticMeshActor.h">
+			<Filter>Plugins\mordentral-vrexpansionplugin-c3213dd8ce1e\Source\VRExpansionPlugin\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\mordentral-vrexpansionplugin-c3213dd8ce1e\Source\VRExpansionPlugin\Public\GrippableStaticMeshComponent.h">
+			<Filter>Plugins\mordentral-vrexpansionplugin-c3213dd8ce1e\Source\VRExpansionPlugin\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\mordentral-vrexpansionplugin-c3213dd8ce1e\Source\VRExpansionPlugin\Public\ParentRelativeAttachmentComponent.h">
+			<Filter>Plugins\mordentral-vrexpansionplugin-c3213dd8ce1e\Source\VRExpansionPlugin\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\mordentral-vrexpansionplugin-c3213dd8ce1e\Source\VRExpansionPlugin\Public\ReplicatedVRCameraComponent.h">
+			<Filter>Plugins\mordentral-vrexpansionplugin-c3213dd8ce1e\Source\VRExpansionPlugin\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\mordentral-vrexpansionplugin-c3213dd8ce1e\Source\VRExpansionPlugin\Public\VRBPDatatypes.h">
+			<Filter>Plugins\mordentral-vrexpansionplugin-c3213dd8ce1e\Source\VRExpansionPlugin\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\mordentral-vrexpansionplugin-c3213dd8ce1e\Source\VRExpansionPlugin\Public\VRCharacter.h">
+			<Filter>Plugins\mordentral-vrexpansionplugin-c3213dd8ce1e\Source\VRExpansionPlugin\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\mordentral-vrexpansionplugin-c3213dd8ce1e\Source\VRExpansionPlugin\Public\VRCharacterMovementComponent.h">
+			<Filter>Plugins\mordentral-vrexpansionplugin-c3213dd8ce1e\Source\VRExpansionPlugin\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\mordentral-vrexpansionplugin-c3213dd8ce1e\Source\VRExpansionPlugin\Public\VRExpansionFunctionLibrary.h">
+			<Filter>Plugins\mordentral-vrexpansionplugin-c3213dd8ce1e\Source\VRExpansionPlugin\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\mordentral-vrexpansionplugin-c3213dd8ce1e\Source\VRExpansionPlugin\Public\VRExpansionPlugin.h">
+			<Filter>Plugins\mordentral-vrexpansionplugin-c3213dd8ce1e\Source\VRExpansionPlugin\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\mordentral-vrexpansionplugin-c3213dd8ce1e\Source\VRExpansionPlugin\Public\VRGripInterface.h">
+			<Filter>Plugins\mordentral-vrexpansionplugin-c3213dd8ce1e\Source\VRExpansionPlugin\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\mordentral-vrexpansionplugin-c3213dd8ce1e\Source\VRExpansionPlugin\Public\VRPathFollowingComponent.h">
+			<Filter>Plugins\mordentral-vrexpansionplugin-c3213dd8ce1e\Source\VRExpansionPlugin\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\mordentral-vrexpansionplugin-c3213dd8ce1e\Source\VRExpansionPlugin\Public\VRPlayerController.h">
+			<Filter>Plugins\mordentral-vrexpansionplugin-c3213dd8ce1e\Source\VRExpansionPlugin\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\mordentral-vrexpansionplugin-c3213dd8ce1e\Source\VRExpansionPlugin\Public\VRRootComponent.h">
+			<Filter>Plugins\mordentral-vrexpansionplugin-c3213dd8ce1e\Source\VRExpansionPlugin\Public</Filter>
+		</ClInclude >
+		<Filter Include="Plugins\mordentral-vrexpansionplugin-c3213dd8ce1e\Source\VRExpansionPlugin\Public\SimpleChar">
+			<UniqueIdentifier>{D363C77F-0137-4143-A002-29791362BC82}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Plugins\mordentral-vrexpansionplugin-c3213dd8ce1e\Source\VRExpansionPlugin\Public\SimpleChar\VRSimpleCharacter.h">
+			<Filter>Plugins\mordentral-vrexpansionplugin-c3213dd8ce1e\Source\VRExpansionPlugin\Public\SimpleChar</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\mordentral-vrexpansionplugin-c3213dd8ce1e\Source\VRExpansionPlugin\Public\SimpleChar\VRSimpleCharacterMovementComponent.h">
+			<Filter>Plugins\mordentral-vrexpansionplugin-c3213dd8ce1e\Source\VRExpansionPlugin\Public\SimpleChar</Filter>
+		</ClInclude >
+		<None Include="..\..\Plugins\mordentral-vrexpansionplugin-c3213dd8ce1e\VRExpansionPlugin.uplugin">
+			<Filter>Plugins\mordentral-vrexpansionplugin-c3213dd8ce1e</Filter>
+		</None >
+		<Filter Include="Plugins\mordentral-vrexpansionplugin-c3213dd8ce1e\Resources">
+			<UniqueIdentifier>{CD1F4CE9-CD7D-44B6-9C55-CCA1A79FEA22}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Plugins\mordentral-vrexpansionplugin-c3213dd8ce1e\Resources\Icon128.png">
+			<Filter>Plugins\mordentral-vrexpansionplugin-c3213dd8ce1e\Resources</Filter>
+		</None >
+		<Filter Include="Source\VRReal">
+			<UniqueIdentifier>{61264978-12E3-4E27-9430-22C958455F4A}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\VRReal\MyClass.cpp">
+			<Filter>Source\VRReal</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\VRReal\MyClass.h">
+			<Filter>Source\VRReal</Filter>
+		</ClInclude >
+		<None Include="..\..\Source\VRReal\VRReal.Build.cs">
+			<Filter>Source\VRReal</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\VRReal\VRReal.cpp">
+			<Filter>Source\VRReal</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\VRReal\VRReal.h">
+			<Filter>Source\VRReal</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
