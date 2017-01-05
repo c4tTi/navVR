@@ -1,5 +1,5 @@
-C:\vrStuff\mordentral-vrexppluginexample-3b63c607efdf\Source\VRExpPluginExample\VRExpPluginExample.Build.cs
-C:\vrStuff\mordentral-vrexppluginexample-3b63c607efdf\Plugins\AdvancedSessions\Source\AdvancedSessions\AdvancedSessions.Build.cs
-C:\vrStuff\mordentral-vrexppluginexample-3b63c607efdf\Plugins\VRExpansionPlugin\Source\VRExpansionPlugin\VRExpansionPlugin.Build.cs
-C:\vrStuff\mordentral-vrexppluginexample-3b63c607efdf\Source\VRExpPluginExample.Target.cs
-C:\vrStuff\mordentral-vrexppluginexample-3b63c607efdf\Source\VRExpPluginExampleEditor.Target.cs
+D:\navVR\projects\NavVRReal\Source\VRExpPluginExample\VRExpPluginExample.Build.cs
+D:\navVR\projects\NavVRReal\Plugins\AdvancedSessions\Source\AdvancedSessions\AdvancedSessions.Build.cs
+D:\navVR\projects\NavVRReal\Plugins\VRExpansionPlugin\Source\VRExpansionPlugin\VRExpansionPlugin.Build.cs
+D:\navVR\projects\NavVRReal\Source\VRExpPluginExample.Target.cs
+D:\navVR\projects\NavVRReal\Source\VRExpPluginExampleEditor.Target.cs
