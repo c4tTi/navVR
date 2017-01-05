@@ -1,1 +1,1 @@
-#include "C:\vrStuff\mordentral-vrexppluginexample-3b63c607efdf\Source\VRExpPluginExample\VRExpPluginExample.h"
+#include "D:\navVR\projects\NavVRReal\Source\VRExpPluginExample\VRExpPluginExample.h"
