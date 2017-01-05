@@ -85,3 +85,5 @@ DerivedDataCache/*
 # Compiled Static libraries
 
 # Executables
+
+*.log
