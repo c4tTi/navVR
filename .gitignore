@@ -87,3 +87,5 @@ DerivedDataCache/*
 # Executables
 
 *.log
+
+Saved/
